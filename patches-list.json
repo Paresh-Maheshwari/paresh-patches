@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "patches": [
     {
       "name": "Teleprompter Premium",
@@ -10,6 +10,18 @@
         "com.solid.teleprompter": [
           "6.8.2",
           "6.8.1"
+        ]
+      },
+      "options": []
+    },
+    {
+      "name": "VN Premium",
+      "description": "Unlocks premium features in VN Video Editor.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "com.frontrow.vlog": [
+          "2.12.0"
         ]
       },
       "options": []
