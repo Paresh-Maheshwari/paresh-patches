@@ -1,0 +1,7 @@
+{
+  "created_at": "2026-04-11T17:40:30",
+  "description": "## [1.1.8](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.1.7...v1.1.8) (2026-04-11)\n\n\n### Bug Fixes\n\n* bypass ad by writing lastUpdateTime to AsyncStorage DB on startup ([b774d0a](https://github.com/Paresh-Maheshwari/paresh-patches/commit/b774d0a1c6056575cde942ae884a2c3144477f1d))",
+  "download_url": "https://github.com/Paresh-Maheshwari/paresh-patches/releases/download/v1.1.8/patches-1.1.8.mpp",
+  "signature_download_url": "",
+  "version": "1.1.8"
+}
