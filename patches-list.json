@@ -1,18 +1,6 @@
 {
-  "version": "1.1.8",
+  "version": "1.0.0",
   "patches": [
-    {
-      "name": "Bypass support page",
-      "description": "Skips the startup ad/support page by pre-setting the ad cooldown timer.",
-      "use": true,
-      "dependencies": [],
-      "compatiblePackages": {
-        "app.netmirror.netmirrornew": [
-          "3.0"
-        ]
-      },
-      "options": []
-    },
     {
       "name": "Teleprompter Premium",
       "description": "Unlocks premium features in Teleprompter Vlog & Scripts app.",
