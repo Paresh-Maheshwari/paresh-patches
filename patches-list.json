@@ -1,5 +1,5 @@
 {
-  "version": "1.1.0",
+  "version": "1.1.1",
   "patches": [
     {
       "name": "Teleprompter Premium",
@@ -16,7 +16,7 @@
     },
     {
       "name": "VN Premium",
-      "description": "Unlocks premium features in VN Video Editor.",
+      "description": "Unlocks premium features, removes watermark, and hides Pro tab.",
       "use": true,
       "dependencies": [],
       "compatiblePackages": {
