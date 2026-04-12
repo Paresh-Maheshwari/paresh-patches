@@ -1,3 +1,10 @@
+# [1.2.0-dev.2](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.2.0-dev.1...v1.2.0-dev.2) (2026-04-12)
+
+
+### Bug Fixes
+
+* use classFingerprint to find premium check class by product IDs ([2ede924](https://github.com/Paresh-Maheshwari/paresh-patches/commit/2ede92466f371b397b0c73c3368dc321ffc7fc19))
+
 # [1.2.0-dev.1](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.1.1...v1.2.0-dev.1) (2026-04-12)
 
 
