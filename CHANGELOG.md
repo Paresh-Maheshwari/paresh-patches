@@ -1,3 +1,10 @@
+# [1.2.0-dev.9](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.2.0-dev.8...v1.2.0-dev.9) (2026-04-12)
+
+
+### Bug Fixes
+
+* revert Fing to original working patch, remove UI fixes ([92a3d2d](https://github.com/Paresh-Maheshwari/paresh-patches/commit/92a3d2d7b70c018a6ab3e3db741ee7b1625e6586))
+
 # [1.2.0-dev.8](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.2.0-dev.7...v1.2.0-dev.8) (2026-04-12)
 
 
