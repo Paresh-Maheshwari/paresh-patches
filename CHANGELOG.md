@@ -1,3 +1,10 @@
+# [1.4.0-dev.2](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.1...v1.4.0-dev.2) (2026-04-12)
+
+
+### Bug Fixes
+
+* skip purchase validation on startup for MacroDroid ([1712913](https://github.com/Paresh-Maheshwari/paresh-patches/commit/171291376a06fdade60b1cff4e5f69ae2b0cee7c))
+
 # [1.4.0-dev.1](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.3.0...v1.4.0-dev.1) (2026-04-12)
 
 
