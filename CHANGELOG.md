@@ -1,3 +1,10 @@
+# [1.2.0-dev.4](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.2.0-dev.3...v1.2.0-dev.4) (2026-04-12)
+
+
+### Bug Fixes
+
+* also patch SharedPreferences to show premium UI in Fing ([fc86907](https://github.com/Paresh-Maheshwari/paresh-patches/commit/fc8690780a8711ae7c2dfaa44ce0d87396f89a4f))
+
 # [1.2.0-dev.3](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.2.0-dev.2...v1.2.0-dev.3) (2026-04-12)
 
 
