@@ -1,3 +1,10 @@
+# [1.4.0-dev.3](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.2...v1.4.0-dev.3) (2026-04-12)
+
+
+### Bug Fixes
+
+* bypass signature verification for MacroDroid ([ed3dd66](https://github.com/Paresh-Maheshwari/paresh-patches/commit/ed3dd6609e2f307dd94abd00d625479d15f8bc49))
+
 # [1.4.0-dev.2](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.1...v1.4.0-dev.2) (2026-04-12)
 
 
