@@ -15,20 +15,18 @@ val fingPremiumPatch = bytecodePatch(
     compatibleWith(COMPATIBILITY_FING)
 
     execute {
-        // Return PREMIUM tier enum constant directly
+        // Return PREMIUM tier from subscription check
         GetSubscriptionTierFingerprint.method.addInstructions(0, """
             sget-object v0, Lfm/r;->c:Lfm/r;
             return-object v0
         """)
 
-        // Replace "FREE" with "PREMIUM" in the subscription status writer
+        // Replace "FREE" with "PREMIUM" in SharedPreferences writer
         // so the UI also shows premium status
         WriteFreeStatusFingerprint.let {
-            val freeStringIndex = it.instructionMatches[1].index
-            val register = it.instructionMatches[1].getInstruction<OneRegisterInstruction>().registerA
-            it.method.replaceInstruction(freeStringIndex, """
-                const-string v$register, "PREMIUM"
-            """)
+            val freeIndex = it.instructionMatches[1].index
+            val reg = it.instructionMatches[1].getInstruction<OneRegisterInstruction>().registerA
+            it.method.replaceInstruction(freeIndex, "const-string v$reg, \"PREMIUM\"")
         }
     }
 }

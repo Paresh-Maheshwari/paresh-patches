@@ -2,8 +2,8 @@ package app.paresh.patches.fing.premium
 
 import app.morphe.patcher.Fingerprint
 import app.morphe.patcher.string
+import com.android.tools.smali.dexlib2.AccessFlags
 
-// Targets gm/b.d() which reads subscription_product_id and returns tier enum
 object GetSubscriptionTierFingerprint : Fingerprint(
     returnType = "Lfm/r;",
     parameters = listOf(),
@@ -12,8 +12,8 @@ object GetSubscriptionTierFingerprint : Fingerprint(
     )
 )
 
-// Targets qo/o.f(Context, u) which writes "FREE" to SharedPreferences
 object WriteFreeStatusFingerprint : Fingerprint(
+    accessFlags = listOf(AccessFlags.PUBLIC, AccessFlags.STATIC),
     returnType = "V",
     filters = listOf(
         string("subscription_product_id"),
