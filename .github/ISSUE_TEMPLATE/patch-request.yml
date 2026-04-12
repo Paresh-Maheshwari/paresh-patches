@@ -1,0 +1,91 @@
+name: Patch Request
+description: Request a new app patch
+title: "[Patch Request] "
+labels: ["patch-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for submitting a patch request! Please fill in all the details below.
+
+  - type: input
+    id: app_name
+    attributes:
+      label: App Name
+      description: Full name of the app as shown on Play Store
+      placeholder: e.g., VN - AI Video Editor
+    validations:
+      required: true
+
+  - type: input
+    id: package_name
+    attributes:
+      label: Package Name
+      description: "Android package name (find it on Play Store URL or APKPure)"
+      placeholder: e.g., com.frontrow.vlog
+    validations:
+      required: true
+
+  - type: input
+    id: app_version
+    attributes:
+      label: App Version
+      description: Version you want patched
+      placeholder: e.g., 2.12.0
+    validations:
+      required: true
+
+  - type: input
+    id: download_link
+    attributes:
+      label: APK Download Link
+      description: Link to download the APK/XAPK/APKM (APKPure, APKMirror, etc.)
+      placeholder: https://apkpure.net/...
+    validations:
+      required: true
+
+  - type: textarea
+    id: features
+    attributes:
+      label: Premium Features to Unlock
+      description: List the specific premium features you want unlocked
+      placeholder: |
+        - Remove watermark
+        - Remove ads
+        - Unlock pro filters
+        - Unlock premium templates
+    validations:
+      required: true
+
+  - type: dropdown
+    id: apk_format
+    attributes:
+      label: APK Format
+      description: What format is the app available in?
+      options:
+        - APK (single file)
+        - XAPK (APKPure split)
+        - APKM (APKMirror split)
+        - Not sure
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Info
+      description: Any other details (subscription type, known mod APKs, etc.)
+      placeholder: |
+        e.g., Uses RevenueCat for subscriptions, has both monthly and yearly plans
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: I have searched existing issues and this app hasn't been requested before
+          required: true
+        - label: I understand that server-side features (AI, cloud sync) cannot be patched
+          required: true
