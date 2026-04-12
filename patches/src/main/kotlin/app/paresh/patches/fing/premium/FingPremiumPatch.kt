@@ -18,9 +18,9 @@ val fingPremiumPatch = bytecodePatch(
             return-object v0
         """)
 
-        // Return true from UI subscription check
-        // This makes the account/plan screen show premium status
-        HasSubscriptionFingerprint.method.addInstructions(0, """
+        // Return true from ServiceActivity.T0() - controls UI premium status
+        // This makes the account/plan screen show premium and hides upgrade cards
+        HasActiveSubscriptionFingerprint.method.addInstructions(0, """
             const/4 v0, 0x1
             return v0
         """)

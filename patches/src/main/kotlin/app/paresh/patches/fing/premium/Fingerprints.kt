@@ -2,10 +2,10 @@ package app.paresh.patches.fing.premium
 
 import app.morphe.patcher.Fingerprint
 import app.morphe.patcher.string
-import app.morphe.patcher.methodCall
+import app.morphe.patcher.fieldAccess
 import com.android.tools.smali.dexlib2.AccessFlags
+import com.android.tools.smali.dexlib2.Opcode
 
-// Targets gm/b.d() - returns subscription tier enum
 object GetSubscriptionTierFingerprint : Fingerprint(
     returnType = "Lfm/r;",
     parameters = listOf(),
@@ -14,14 +14,17 @@ object GetSubscriptionTierFingerprint : Fingerprint(
     )
 )
 
-// Targets fm/p.H() - the UI premium status check
-// Called by the account/plan screen to decide premium vs free UI
-// Uses synchronized block and checks internal state fields
-object HasSubscriptionFingerprint : Fingerprint(
+// Targets ServiceActivity.T0() which checks if user has active subscription
+// It reads fm/w.d field and compares to fm/r.b (STARTER tier)
+object HasActiveSubscriptionFingerprint : Fingerprint(
+    definingClass = "Lcom/overlook/android/fing/ui/base/ServiceActivity;",
     returnType = "Z",
     accessFlags = listOf(AccessFlags.PUBLIC, AccessFlags.FINAL),
     parameters = listOf(),
     filters = listOf(
-        methodCall(definingClass = "Lfm/p;", name = "G")
+        fieldAccess(
+            definingClass = "Lfm/w;",
+            type = "Lfm/r;"
+        )
     )
 )
