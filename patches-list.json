@@ -1,6 +1,18 @@
 {
-  "version": "1.1.1",
+  "version": "1.2.0-dev.1",
   "patches": [
+    {
+      "name": "Doc Scanner Premium",
+      "description": "Unlocks all premium features, removes ads, and enables pro themes.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "com.cv.docscanner": [
+          "6.8.18"
+        ]
+      },
+      "options": []
+    },
     {
       "name": "Teleprompter Premium",
       "description": "Unlocks premium features in Teleprompter Vlog & Scripts app.",

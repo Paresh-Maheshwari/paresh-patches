@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-04-11T20:22:05",
-  "description": "## [1.1.1](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.1.0...v1.1.1) (2026-04-11)\n\n\n### Bug Fixes\n\n* improve VN Premium patch - remove obfuscated refs, add Pro tab hide ([a520eaa](https://github.com/Paresh-Maheshwari/paresh-patches/commit/a520eaa0c0450db55ddfc1e9a883694f93ae9031))",
-  "download_url": "https://github.com/Paresh-Maheshwari/paresh-patches/releases/download/v1.1.1/patches-1.1.1.mpp",
+  "created_at": "2026-04-12T06:07:49",
+  "description": "# [1.2.0-dev.1](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.1.1...v1.2.0-dev.1) (2026-04-12)\n\n\n### Features\n\n* add Document Scanner Premium patch + enable dev branch pre-releases ([a9d9341](https://github.com/Paresh-Maheshwari/paresh-patches/commit/a9d9341a65c11086685a9219a65be39fe7e26f7b))",
+  "download_url": "https://github.com/Paresh-Maheshwari/paresh-patches/releases/download/v1.2.0-dev.1/patches-1.2.0-dev.1.mpp",
   "signature_download_url": "",
-  "version": "1.1.1"
+  "version": "1.2.0-dev.1"
 }
