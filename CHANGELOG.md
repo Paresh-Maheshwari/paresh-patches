@@ -1,3 +1,10 @@
+# [1.4.0-dev.1](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.3.0...v1.4.0-dev.1) (2026-04-12)
+
+
+### Features
+
+* add MacroDroid premium patch ([9b9d0ab](https://github.com/Paresh-Maheshwari/paresh-patches/commit/9b9d0abe3b9299ad274425ba457346578fd7557d))
+
 # [1.3.0](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.2.0...v1.3.0) (2026-04-12)
 
 
