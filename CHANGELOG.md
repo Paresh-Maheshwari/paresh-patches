@@ -1,3 +1,10 @@
+# [1.2.0-dev.6](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.2.0-dev.5...v1.2.0-dev.6) (2026-04-12)
+
+
+### Bug Fixes
+
+* patch account UI SharedPreferences default to PREMIUM in Fing ([26adc4a](https://github.com/Paresh-Maheshwari/paresh-patches/commit/26adc4aaf3b638b4ece77032334fafa87b3f13ef))
+
 # [1.2.0-dev.5](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.2.0-dev.4...v1.2.0-dev.5) (2026-04-12)
 
 
