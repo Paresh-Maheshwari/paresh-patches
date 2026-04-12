@@ -12,11 +12,15 @@ object GetSubscriptionTierFingerprint : Fingerprint(
     )
 )
 
-object WriteFreeStatusFingerprint : Fingerprint(
-    accessFlags = listOf(AccessFlags.PUBLIC, AccessFlags.STATIC),
+// Targets the UI method in rn/d that reads subscription_product_id
+// from SharedPreferences and shows/hides upgrade buttons
+object AccountUIFingerprint : Fingerprint(
     returnType = "V",
+    accessFlags = listOf(AccessFlags.PUBLIC, AccessFlags.FINAL),
+    parameters = listOf(),
     filters = listOf(
+        string("uiprefs"),
         string("subscription_product_id"),
-        string("FREE")
+        string("PREMIUM")
     )
 )

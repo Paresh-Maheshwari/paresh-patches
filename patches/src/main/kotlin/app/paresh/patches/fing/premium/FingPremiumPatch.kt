@@ -15,18 +15,20 @@ val fingPremiumPatch = bytecodePatch(
     compatibleWith(COMPATIBILITY_FING)
 
     execute {
-        // Return PREMIUM tier from subscription check
+        // Return PREMIUM tier from subscription check method
         GetSubscriptionTierFingerprint.method.addInstructions(0, """
             sget-object v0, Lfm/r;->c:Lfm/r;
             return-object v0
         """)
 
-        // Replace "FREE" with "PREMIUM" in SharedPreferences writer
-        // so the UI also shows premium status
-        WriteFreeStatusFingerprint.let {
-            val freeIndex = it.instructionMatches[1].index
-            val reg = it.instructionMatches[1].getInstruction<OneRegisterInstruction>().registerA
-            it.method.replaceInstruction(freeIndex, "const-string v$reg, \"PREMIUM\"")
+        // Patch the account UI to always show PREMIUM status
+        // Replace the empty default value for getString("subscription_product_id", "")
+        // with "PREMIUM" so the UI always sees premium status
+        AccountUIFingerprint.method.apply {
+            val subIdIndex = AccountUIFingerprint.instructionMatches[1].index
+            val emptyStringIndex = subIdIndex + 1
+            val reg = getInstruction<OneRegisterInstruction>(emptyStringIndex).registerA
+            replaceInstruction(emptyStringIndex, "const-string v$reg, \"PREMIUM\"")
         }
     }
 }
