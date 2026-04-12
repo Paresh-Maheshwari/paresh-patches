@@ -1,5 +1,5 @@
 {
-  "version": "1.2.0",
+  "version": "1.2.0-dev.9",
   "patches": [
     {
       "name": "Doc Scanner Premium",
@@ -9,6 +9,18 @@
       "compatiblePackages": {
         "com.cv.docscanner": [
           "6.8.18"
+        ]
+      },
+      "options": []
+    },
+    {
+      "name": "Fing Premium",
+      "description": "Unlocks premium network tools and features.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "com.overlook.android.fing": [
+          "12.11.9"
         ]
       },
       "options": []
