@@ -1,3 +1,10 @@
+# [1.2.0-dev.5](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.2.0-dev.4...v1.2.0-dev.5) (2026-04-12)
+
+
+### Bug Fixes
+
+* replace FREE with PREMIUM in SharedPreferences for Fing UI ([89b0726](https://github.com/Paresh-Maheshwari/paresh-patches/commit/89b072658517bfd00e23511bb4bc03cf43a2c32b))
+
 # [1.2.0-dev.4](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.2.0-dev.3...v1.2.0-dev.4) (2026-04-12)
 
 
