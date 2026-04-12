@@ -1,3 +1,15 @@
+# [1.2.0](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.1.1...v1.2.0) (2026-04-12)
+
+
+### Bug Fixes
+
+* use classFingerprint to find premium check class by product IDs ([2ede924](https://github.com/Paresh-Maheshwari/paresh-patches/commit/2ede92466f371b397b0c73c3368dc321ffc7fc19))
+
+
+### Features
+
+* add Document Scanner Premium patch + enable dev branch pre-releases ([a9d9341](https://github.com/Paresh-Maheshwari/paresh-patches/commit/a9d9341a65c11086685a9219a65be39fe7e26f7b))
+
 # [1.2.0-dev.2](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.2.0-dev.1...v1.2.0-dev.2) (2026-04-12)
 
 
