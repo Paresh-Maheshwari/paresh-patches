@@ -1,3 +1,21 @@
+# [1.3.0](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.2.0...v1.3.0) (2026-04-12)
+
+
+### Bug Fixes
+
+* also patch SharedPreferences to show premium UI in Fing ([fc86907](https://github.com/Paresh-Maheshwari/paresh-patches/commit/fc8690780a8711ae7c2dfaa44ce0d87396f89a4f))
+* patch account UI SharedPreferences default to PREMIUM in Fing ([26adc4a](https://github.com/Paresh-Maheshwari/paresh-patches/commit/26adc4aaf3b638b4ece77032334fafa87b3f13ef))
+* patch fm/p.H() to return true for Fing premium UI ([e070056](https://github.com/Paresh-Maheshwari/paresh-patches/commit/e070056ea111d39235e18d3c2c53b0478fe2be68))
+* patch ServiceActivity.T0() for Fing premium UI - the real UI gate ([95cf08b](https://github.com/Paresh-Maheshwari/paresh-patches/commit/95cf08bcf40275d312d8652aae3d7b135f858978))
+* replace FREE with PREMIUM in SharedPreferences for Fing UI ([89b0726](https://github.com/Paresh-Maheshwari/paresh-patches/commit/89b072658517bfd00e23511bb4bc03cf43a2c32b))
+* revert Fing to original working patch, remove UI fixes ([92a3d2d](https://github.com/Paresh-Maheshwari/paresh-patches/commit/92a3d2d7b70c018a6ab3e3db741ee7b1625e6586))
+
+
+### Features
+
+* add Fing Network Tools and Document Scanner patches ([e72a66a](https://github.com/Paresh-Maheshwari/paresh-patches/commit/e72a66a24ce8f696c6e4843ccd6315d8a0febd4f))
+* add Fing Network Tools Premium patch ([22d90e4](https://github.com/Paresh-Maheshwari/paresh-patches/commit/22d90e4cf8e1d77bc8e1d43b8b9f95377d460cab))
+
 # [1.2.0-dev.9](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.2.0-dev.8...v1.2.0-dev.9) (2026-04-12)
 
 
