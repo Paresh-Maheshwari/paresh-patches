@@ -1,3 +1,10 @@
+# [1.2.0-dev.7](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.2.0-dev.6...v1.2.0-dev.7) (2026-04-12)
+
+
+### Bug Fixes
+
+* patch fm/p.H() to return true for Fing premium UI ([e070056](https://github.com/Paresh-Maheshwari/paresh-patches/commit/e070056ea111d39235e18d3c2c53b0478fe2be68))
+
 # [1.2.0-dev.6](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.2.0-dev.5...v1.2.0-dev.6) (2026-04-12)
 
 
