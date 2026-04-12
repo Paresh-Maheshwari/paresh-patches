@@ -1,3 +1,10 @@
+# [1.2.0-dev.8](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.2.0-dev.7...v1.2.0-dev.8) (2026-04-12)
+
+
+### Bug Fixes
+
+* patch ServiceActivity.T0() for Fing premium UI - the real UI gate ([95cf08b](https://github.com/Paresh-Maheshwari/paresh-patches/commit/95cf08bcf40275d312d8652aae3d7b135f858978))
+
 # [1.2.0-dev.7](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.2.0-dev.6...v1.2.0-dev.7) (2026-04-12)
 
 
