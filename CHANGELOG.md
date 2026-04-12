@@ -1,3 +1,10 @@
+# [1.2.0-dev.3](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.2.0-dev.2...v1.2.0-dev.3) (2026-04-12)
+
+
+### Features
+
+* add Fing Network Tools Premium patch ([22d90e4](https://github.com/Paresh-Maheshwari/paresh-patches/commit/22d90e4cf8e1d77bc8e1d43b8b9f95377d460cab))
+
 # [1.2.0-dev.2](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.2.0-dev.1...v1.2.0-dev.2) (2026-04-12)
 
 
