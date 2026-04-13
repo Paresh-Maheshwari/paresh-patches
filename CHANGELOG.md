@@ -1,3 +1,10 @@
+# [1.4.0-dev.4](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.3...v1.4.0-dev.4) (2026-04-13)
+
+
+### Bug Fixes
+
+* bypass template store signature check for MacroDroid ([43dcdfd](https://github.com/Paresh-Maheshwari/paresh-patches/commit/43dcdfd52e92897f210b9617deb6f241c31baa34))
+
 # [1.4.0-dev.3](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.2...v1.4.0-dev.3) (2026-04-12)
 
 
