@@ -1,3 +1,10 @@
+# [1.4.0-dev.15](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.14...v1.4.0-dev.15) (2026-04-13)
+
+
+### Bug Fixes
+
+* revert Fing T0 patch - causes app crash ([2b4fe63](https://github.com/Paresh-Maheshwari/paresh-patches/commit/2b4fe63888509682341d9e43f21748bc8f8a4648))
+
 # [1.4.0-dev.14](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.13...v1.4.0-dev.14) (2026-04-13)
 
 
