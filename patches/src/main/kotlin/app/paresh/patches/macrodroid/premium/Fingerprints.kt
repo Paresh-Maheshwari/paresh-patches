@@ -27,10 +27,10 @@ object ValidatePurchaseFingerprint : Fingerprint(
     strings = listOf("Validate purchases is enabled with frequency: ")
 )
 
-// Upgrade screen launcher — UpgradeActivity2.Companion.a(Activity)
+// Upgrade screen launcher — UpgradeActivity2$a.a(Activity)
 // Single entry point for all upgrade popups including first-launch prompt.
 object ShowUpgradeScreenFingerprint : Fingerprint(
-    definingClass = "Lcom/arlosoft/macrodroid/upgrade/UpgradeActivity2\$Companion;",
+    definingClass = "Lcom/arlosoft/macrodroid/upgrade/UpgradeActivity2\$a;",
     name = "a",
     returnType = "V",
     parameters = listOf("Landroid/app/Activity;")
