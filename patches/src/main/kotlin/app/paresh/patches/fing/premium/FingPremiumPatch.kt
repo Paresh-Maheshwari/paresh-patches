@@ -12,10 +12,17 @@ val fingPremiumPatch = bytecodePatch(
     compatibleWith(COMPATIBILITY_FING)
 
     execute {
-        // Return PREMIUM tier enum constant directly
+        // Return GOD tier enum constant (highest tier)
         GetSubscriptionTierFingerprint.method.addInstructions(0, """
-            sget-object v0, Lfm/r;->c:Lfm/r;
+            sget-object v0, Lfm/r;->e:Lfm/r;
             return-object v0
+        """)
+
+        // Force premium status check to return true
+        // Bypasses scan limits and hides upgrade UI
+        PremiumStatusCheckFingerprint.method.addInstructions(0, """
+            const/4 v0, 0x1
+            return v0
         """)
     }
 }
