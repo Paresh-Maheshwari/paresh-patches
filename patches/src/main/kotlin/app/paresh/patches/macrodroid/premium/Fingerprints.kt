@@ -26,15 +26,3 @@ object ValidatePurchaseFingerprint : Fingerprint(
     parameters = listOf(),
     strings = listOf("Validate purchases is enabled with frequency: ")
 )
-
-// Signature verification — com.arlosoft.macrodroid.a.a(Context)
-// Returns true if signature doesn't match known keys (= tampered).
-object SignatureCheckFingerprint : Fingerprint(
-    returnType = "Z",
-    accessFlags = listOf(AccessFlags.PUBLIC, AccessFlags.STATIC),
-    parameters = listOf("Landroid/content/Context;"),
-    filters = listOf(
-        methodCall(definingClass = "Landroid/content/pm/PackageManager;", name = "getPackageInfo"),
-        methodCall(definingClass = "Landroid/content/pm/Signature;", name = "toCharsString")
-    )
-)
