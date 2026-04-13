@@ -1,3 +1,10 @@
+# [1.4.0-dev.8](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.7...v1.4.0-dev.8) (2026-04-13)
+
+
+### Bug Fixes
+
+* explicitly target template store signature check via classFingerprint ([07f0e3a](https://github.com/Paresh-Maheshwari/paresh-patches/commit/07f0e3a43c0c07b6e8dd8909a29b05af67e663ce))
+
 # [1.4.0-dev.7](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.6...v1.4.0-dev.7) (2026-04-13)
 
 
