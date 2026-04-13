@@ -1,3 +1,10 @@
+# [1.4.0-dev.7](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.6...v1.4.0-dev.7) (2026-04-13)
+
+
+### Bug Fixes
+
+* correct upgrade screen fingerprint class name ([5c5707a](https://github.com/Paresh-Maheshwari/paresh-patches/commit/5c5707adfe2c7bc374d58028b2bb9bf862b0bd6a))
+
 # [1.4.0-dev.6](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.5...v1.4.0-dev.6) (2026-04-13)
 
 
