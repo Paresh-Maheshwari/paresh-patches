@@ -1,3 +1,52 @@
+# [1.4.0-dev.12](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.11...v1.4.0-dev.12) (2026-04-13)
+
+
+### Bug Fixes
+
+* use exact class/method name for template store sig check ([2d5c5aa](https://github.com/Paresh-Maheshwari/paresh-patches/commit/2d5c5aaf462fbac79fac2c42afcb798a4847bcd9))
+
+# [1.4.0-dev.11](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.10...v1.4.0-dev.11) (2026-04-13)
+
+
+### Bug Fixes
+
+* add explicit template store signature check bypass ([2d26ea5](https://github.com/Paresh-Maheshwari/paresh-patches/commit/2d26ea5b2d1b36ee85324465ecddf768f4441498))
+
+# [1.4.0-dev.10](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.9...v1.4.0-dev.10) (2026-04-13)
+
+
+### Bug Fixes
+
+* simplify patch - remove failing template store fingerprint ([da2f5ac](https://github.com/Paresh-Maheshwari/paresh-patches/commit/da2f5acf50f578db66c65ec9dbf5c781e199a4e2))
+
+# [1.4.0-dev.9](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.8...v1.4.0-dev.9) (2026-04-13)
+
+
+### Bug Fixes
+
+* spoof signature hash for template store API authentication ([63d1b6c](https://github.com/Paresh-Maheshwari/paresh-patches/commit/63d1b6c5dbc5211f4701df651ad3fbd484456e7e))
+
+# [1.4.0-dev.8](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.7...v1.4.0-dev.8) (2026-04-13)
+
+
+### Bug Fixes
+
+* explicitly target template store signature check via classFingerprint ([07f0e3a](https://github.com/Paresh-Maheshwari/paresh-patches/commit/07f0e3a43c0c07b6e8dd8909a29b05af67e663ce))
+
+# [1.4.0-dev.7](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.6...v1.4.0-dev.7) (2026-04-13)
+
+
+### Bug Fixes
+
+* correct upgrade screen fingerprint class name ([5c5707a](https://github.com/Paresh-Maheshwari/paresh-patches/commit/5c5707adfe2c7bc374d58028b2bb9bf862b0bd6a))
+
+# [1.4.0-dev.6](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.5...v1.4.0-dev.6) (2026-04-13)
+
+
+### Bug Fixes
+
+* bypass template store signature check and block upgrade popup ([8b0f82f](https://github.com/Paresh-Maheshwari/paresh-patches/commit/8b0f82fc0a66107a08364ac576b0e7eada5b6292))
+
 # [1.4.0-dev.5](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.4...v1.4.0-dev.5) (2026-04-13)
 
 
