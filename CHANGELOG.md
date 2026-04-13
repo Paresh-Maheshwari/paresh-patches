@@ -1,3 +1,10 @@
+# [1.4.0-dev.14](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.13...v1.4.0-dev.14) (2026-04-13)
+
+
+### Bug Fixes
+
+* revert Fing to PREMIUM tier instead of GOD ([ff55756](https://github.com/Paresh-Maheshwari/paresh-patches/commit/ff55756f71c43ca86a02b9c6dd0874a3d08d5efa))
+
 # [1.4.0-dev.13](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.12...v1.4.0-dev.13) (2026-04-13)
 
 
