@@ -1,8 +1,6 @@
 package app.paresh.patches.macrodroid.premium
 
-import app.morphe.patcher.Fingerprint
 import app.morphe.patcher.extensions.InstructionExtensions.addInstructions
-import app.morphe.patcher.methodCall
 import app.morphe.patcher.patch.bytecodePatch
 import app.paresh.patches.macrodroid.shared.Constants.COMPATIBILITY_MACRODROID
 
@@ -14,22 +12,18 @@ val macroDroidPremiumPatch = bytecodePatch(
     compatibleWith(COMPATIBILITY_MACRODROID)
 
     execute {
-        // Bypass ALL signature checks (main app + template store API hash)
-        Fingerprint(
-            returnType = "Z",
-            parameters = listOf("Landroid/content/Context;"),
-            filters = listOf(
-                methodCall(definingClass = "Landroid/content/pm/PackageManager;", name = "getPackageInfo"),
-                methodCall(definingClass = "Landroid/content/pm/Signature;", name = "toCharsString")
-            )
-        ).matchAllOrNull()?.forEach { match ->
-            match.method.addInstructions(0, """
-                const/4 v0, 0x0
-                return v0
-            """)
-        }
+        val sigBypass = """
+            const/4 v0, 0x0
+            return v0
+        """
 
-        // Return PRO status from the central premium check
+        // Bypass main signature check
+        SignatureCheckFingerprint.method.addInstructions(0, sigBypass)
+
+        // Bypass template store signature check
+        TemplateStoreSignatureCheckFingerprint.method.addInstructions(0, sigBypass)
+
+        // Return PRO status
         PremiumStatusFingerprint.method.addInstructions(0, """
             sget-object v0, Lcom/arlosoft/macrodroid/confirmation/a${'$'}c;->a:Lcom/arlosoft/macrodroid/confirmation/a${'$'}c;
             return-object v0
@@ -38,7 +32,7 @@ val macroDroidPremiumPatch = bytecodePatch(
         // Skip purchase validation on startup
         ValidatePurchaseFingerprint.method.addInstructions(0, "return-void")
 
-        // Block upgrade screen from ever showing
+        // Block upgrade screen
         ShowUpgradeScreenFingerprint.method.addInstructions(0, "return-void")
     }
 }
