@@ -1,15 +1,16 @@
-# [1.4.0](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.3.0...v1.4.0) (2026-04-12)
+# [1.4.0-dev.5](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.4...v1.4.0-dev.5) (2026-04-13)
+
+
+### Reverts
+
+* Revert "fix: bypass template store signature check for MacroDroid" ([47f0224](https://github.com/Paresh-Maheshwari/paresh-patches/commit/47f02242e0cf220297ca988647f5c20a962c2731))
+
+# [1.4.0-dev.4](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.3...v1.4.0-dev.4) (2026-04-13)
 
 
 ### Bug Fixes
 
-* bypass signature verification for MacroDroid ([ed3dd66](https://github.com/Paresh-Maheshwari/paresh-patches/commit/ed3dd6609e2f307dd94abd00d625479d15f8bc49))
-* skip purchase validation on startup for MacroDroid ([1712913](https://github.com/Paresh-Maheshwari/paresh-patches/commit/171291376a06fdade60b1cff4e5f69ae2b0cee7c))
-
-
-### Features
-
-* add MacroDroid premium patch ([9b9d0ab](https://github.com/Paresh-Maheshwari/paresh-patches/commit/9b9d0abe3b9299ad274425ba457346578fd7557d))
+* bypass template store signature check for MacroDroid ([43dcdfd](https://github.com/Paresh-Maheshwari/paresh-patches/commit/43dcdfd52e92897f210b9617deb6f241c31baa34))
 
 # [1.4.0-dev.3](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.2...v1.4.0-dev.3) (2026-04-12)
 
