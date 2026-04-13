@@ -38,7 +38,7 @@ object SignatureCheckFingerprint : Fingerprint(
     )
 )
 
-// Template store class fingerprint — find via API key string
+// Template store class — find via API key
 object TemplateStoreClassFingerprint : Fingerprint(
     strings = listOf("adb97ac6-f780-4a41-8475-ce661b574999")
 )
@@ -53,6 +53,15 @@ object TemplateStoreSignatureCheckFingerprint : Fingerprint(
         methodCall(definingClass = "Landroid/content/pm/PackageManager;", name = "getPackageInfo"),
         methodCall(definingClass = "Landroid/content/pm/Signature;", name = "toCharsString")
     )
+)
+
+// Signature hash generator — r1.a(Context) returns SHA1+Base64 of APK signature
+// Used as "device ID" in template store API hash computation.
+object SignatureHashFingerprint : Fingerprint(
+    definingClass = "Lcom/arlosoft/macrodroid/utils/r1;",
+    name = "a",
+    returnType = "Ljava/lang/String;",
+    parameters = listOf("Landroid/content/Context;")
 )
 
 // Upgrade screen launcher — UpgradeActivity2$a.a(Activity)

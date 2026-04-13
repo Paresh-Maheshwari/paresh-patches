@@ -12,16 +12,24 @@ val macroDroidPremiumPatch = bytecodePatch(
     compatibleWith(COMPATIBILITY_MACRODROID)
 
     execute {
-        val sigBypass = """
+        // Bypass main signature check (returns false = not tampered)
+        SignatureCheckFingerprint.method.addInstructions(0, """
             const/4 v0, 0x0
             return v0
-        """
-
-        // Bypass main signature check
-        SignatureCheckFingerprint.method.addInstructions(0, sigBypass)
+        """)
 
         // Bypass template store signature check
-        TemplateStoreSignatureCheckFingerprint.method.addInstructions(0, sigBypass)
+        TemplateStoreSignatureCheckFingerprint.method.addInstructions(0, """
+            const/4 v0, 0x0
+            return v0
+        """)
+
+        // Spoof signature hash for template store API auth
+        // Returns the original release signature hash so API hash matches server
+        SignatureHashFingerprint.method.addInstructions(0, """
+            const-string v0, "uPaen47jLjpXT6+t5lu0OBd3ECg="
+            return-object v0
+        """)
 
         // Return PRO status
         PremiumStatusFingerprint.method.addInstructions(0, """
