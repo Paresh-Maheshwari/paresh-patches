@@ -1,6 +1,8 @@
 package app.paresh.patches.macrodroid.premium
 
+import app.morphe.patcher.Fingerprint
 import app.morphe.patcher.extensions.InstructionExtensions.addInstructions
+import app.morphe.patcher.methodCall
 import app.morphe.patcher.patch.bytecodePatch
 import app.paresh.patches.macrodroid.shared.Constants.COMPATIBILITY_MACRODROID
 
@@ -12,11 +14,20 @@ val macroDroidPremiumPatch = bytecodePatch(
     compatibleWith(COMPATIBILITY_MACRODROID)
 
     execute {
-        // Bypass signature verification (returns false = signature OK)
-        SignatureCheckFingerprint.method.addInstructions(0, """
-            const/4 v0, 0x0
-            return v0
-        """)
+        // Bypass ALL signature checks (main app + template store API hash)
+        Fingerprint(
+            returnType = "Z",
+            parameters = listOf("Landroid/content/Context;"),
+            filters = listOf(
+                methodCall(definingClass = "Landroid/content/pm/PackageManager;", name = "getPackageInfo"),
+                methodCall(definingClass = "Landroid/content/pm/Signature;", name = "toCharsString")
+            )
+        ).matchAllOrNull()?.forEach { match ->
+            match.method.addInstructions(0, """
+                const/4 v0, 0x0
+                return v0
+            """)
+        }
 
         // Return PRO status from the central premium check
         PremiumStatusFingerprint.method.addInstructions(0, """
@@ -26,5 +37,8 @@ val macroDroidPremiumPatch = bytecodePatch(
 
         // Skip purchase validation on startup
         ValidatePurchaseFingerprint.method.addInstructions(0, "return-void")
+
+        // Block upgrade screen from ever showing
+        ShowUpgradeScreenFingerprint.method.addInstructions(0, "return-void")
     }
 }
