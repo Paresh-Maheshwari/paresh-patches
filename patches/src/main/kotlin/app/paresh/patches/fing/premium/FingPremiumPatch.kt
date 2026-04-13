@@ -17,12 +17,5 @@ val fingPremiumPatch = bytecodePatch(
             sget-object v0, Lfm/r;->c:Lfm/r;
             return-object v0
         """)
-
-        // Force premium status check to return true
-        // Bypasses scan limits and hides upgrade UI
-        PremiumStatusCheckFingerprint.method.addInstructions(0, """
-            const/4 v0, 0x1
-            return v0
-        """)
     }
 }
