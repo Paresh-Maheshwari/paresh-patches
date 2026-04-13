@@ -1,3 +1,10 @@
+# [1.4.0-dev.12](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.11...v1.4.0-dev.12) (2026-04-13)
+
+
+### Bug Fixes
+
+* use exact class/method name for template store sig check ([2d5c5aa](https://github.com/Paresh-Maheshwari/paresh-patches/commit/2d5c5aaf462fbac79fac2c42afcb798a4847bcd9))
+
 # [1.4.0-dev.11](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.10...v1.4.0-dev.11) (2026-04-13)
 
 
