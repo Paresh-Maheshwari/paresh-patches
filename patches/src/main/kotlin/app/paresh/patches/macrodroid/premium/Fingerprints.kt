@@ -24,6 +24,7 @@ object ValidatePurchaseFingerprint : Fingerprint(
     strings = listOf("Validate purchases is enabled with frequency: ")
 )
 
+// Main signature check — public static in com.arlosoft.macrodroid.a
 object SignatureCheckFingerprint : Fingerprint(
     returnType = "Z",
     accessFlags = listOf(AccessFlags.PUBLIC, AccessFlags.STATIC),
@@ -34,6 +35,19 @@ object SignatureCheckFingerprint : Fingerprint(
     )
 )
 
+// Template store signature check — private final in l5.t
+// Uses custom predicate to match the private instance method
+object TemplateStoreSignatureCheckFingerprint : Fingerprint(
+    returnType = "Z",
+    accessFlags = listOf(AccessFlags.PRIVATE, AccessFlags.FINAL),
+    parameters = listOf("Landroid/content/Context;"),
+    filters = listOf(
+        methodCall(definingClass = "Landroid/content/pm/PackageManager;", name = "getPackageInfo"),
+        methodCall(definingClass = "Landroid/content/pm/Signature;", name = "toCharsString")
+    )
+)
+
+// Signature hash for API auth — r1.a(Context)
 object SignatureHashFingerprint : Fingerprint(
     definingClass = "Lcom/arlosoft/macrodroid/utils/r1;",
     name = "a",
