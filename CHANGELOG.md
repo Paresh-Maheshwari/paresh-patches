@@ -1,3 +1,10 @@
+# [1.4.0-dev.10](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.9...v1.4.0-dev.10) (2026-04-13)
+
+
+### Bug Fixes
+
+* simplify patch - remove failing template store fingerprint ([da2f5ac](https://github.com/Paresh-Maheshwari/paresh-patches/commit/da2f5acf50f578db66c65ec9dbf5c781e199a4e2))
+
 # [1.4.0-dev.9](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.8...v1.4.0-dev.9) (2026-04-13)
 
 
