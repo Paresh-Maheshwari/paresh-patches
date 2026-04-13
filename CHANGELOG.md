@@ -1,3 +1,10 @@
+# [1.4.0-dev.13](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.12...v1.4.0-dev.13) (2026-04-13)
+
+
+### Features
+
+* bypass Fing scan limits, hide upgrade UI, use GOD tier ([afbabf3](https://github.com/Paresh-Maheshwari/paresh-patches/commit/afbabf31fd973e47ffeef834cefeb87fd59b8a15))
+
 # [1.4.0-dev.12](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.11...v1.4.0-dev.12) (2026-04-13)
 
 
