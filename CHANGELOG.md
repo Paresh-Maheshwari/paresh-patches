@@ -1,3 +1,10 @@
+# [1.4.0-dev.11](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.10...v1.4.0-dev.11) (2026-04-13)
+
+
+### Bug Fixes
+
+* add explicit template store signature check bypass ([2d26ea5](https://github.com/Paresh-Maheshwari/paresh-patches/commit/2d26ea5b2d1b36ee85324465ecddf768f4441498))
+
 # [1.4.0-dev.10](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.9...v1.4.0-dev.10) (2026-04-13)
 
 
