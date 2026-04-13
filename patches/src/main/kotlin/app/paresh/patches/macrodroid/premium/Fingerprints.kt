@@ -35,16 +35,12 @@ object SignatureCheckFingerprint : Fingerprint(
     )
 )
 
-// Template store signature check — private final in l5.t
-// Uses custom predicate to match the private instance method
+// Template store signature check — l5.t.w(Context)
 object TemplateStoreSignatureCheckFingerprint : Fingerprint(
+    definingClass = "Ll5/t;",
+    name = "w",
     returnType = "Z",
-    accessFlags = listOf(AccessFlags.PRIVATE, AccessFlags.FINAL),
-    parameters = listOf("Landroid/content/Context;"),
-    filters = listOf(
-        methodCall(definingClass = "Landroid/content/pm/PackageManager;", name = "getPackageInfo"),
-        methodCall(definingClass = "Landroid/content/pm/Signature;", name = "toCharsString")
-    )
+    parameters = listOf("Landroid/content/Context;")
 )
 
 // Signature hash for API auth — r1.a(Context)
