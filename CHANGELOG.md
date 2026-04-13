@@ -1,3 +1,10 @@
+# [1.4.0-dev.9](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.8...v1.4.0-dev.9) (2026-04-13)
+
+
+### Bug Fixes
+
+* spoof signature hash for template store API authentication ([63d1b6c](https://github.com/Paresh-Maheshwari/paresh-patches/commit/63d1b6c5dbc5211f4701df651ad3fbd484456e7e))
+
 # [1.4.0-dev.8](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.7...v1.4.0-dev.8) (2026-04-13)
 
 
