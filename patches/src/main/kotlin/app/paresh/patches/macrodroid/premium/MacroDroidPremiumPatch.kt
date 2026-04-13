@@ -12,20 +12,13 @@ val macroDroidPremiumPatch = bytecodePatch(
     compatibleWith(COMPATIBILITY_MACRODROID)
 
     execute {
-        // Bypass main signature check (returns false = not tampered)
+        // Bypass main signature check
         SignatureCheckFingerprint.method.addInstructions(0, """
             const/4 v0, 0x0
             return v0
         """)
 
-        // Bypass template store signature check
-        TemplateStoreSignatureCheckFingerprint.method.addInstructions(0, """
-            const/4 v0, 0x0
-            return v0
-        """)
-
         // Spoof signature hash for template store API auth
-        // Returns the original release signature hash so API hash matches server
         SignatureHashFingerprint.method.addInstructions(0, """
             const-string v0, "uPaen47jLjpXT6+t5lu0OBd3ECg="
             return-object v0
@@ -37,7 +30,7 @@ val macroDroidPremiumPatch = bytecodePatch(
             return-object v0
         """)
 
-        // Skip purchase validation on startup
+        // Skip purchase validation
         ValidatePurchaseFingerprint.method.addInstructions(0, "return-void")
 
         // Block upgrade screen
