@@ -14,7 +14,7 @@ Custom [Morphe](https://morphe.software) patches for unlocking premium features 
 | VN - AI Video Editor | `com.frontrow.vlog` | 2.12.0 | <ul><li>Unlock premium features</li><li>Remove watermark</li><li>Hide Pro tab</li></ul> | [APKMirror (APKM)](https://www.apkmirror.com/apk/ubiquiti-labs-llc/vn-video-editor-maker-vlognow/) |
 | Document Scanner | `com.cv.docscanner` | 6.8.18 | <ul><li>Unlock all premium</li><li>Remove ads</li><li>Pro themes & stickers</li></ul> | [APKPure (XAPK)](https://apkpure.net/document-scanner-pdf-creator/com.cv.docscanner/download) |
 | Fing - Network Tools | `com.overlook.android.fing` | 12.11.9 | <ul><li>Unlock premium network tools</li><li>Timeline, Digital Fence, etc.</li><li>⚠️ UI still shows upgrade buttons</li></ul> | [APKMirror (APKM)](https://www.apkmirror.com/apk/fing-limited/fing-network-tools/) |
-| MacroDroid | `com.arlosoft.macrodroid` | 5.62.11 | <ul><li>Unlock premium features</li><li>Remove macro limits</li><li>Remove upgrade prompts</li><li>⚠️ Template store unavailable (server-side validation)</li></ul> | [APKMirror (APK)](https://www.apkmirror.com/apk/arlosoft/macrodroid-device-automation-2/macrodroid-device-automation-5-62-11-release/macrodroid-device-automation-5-62-11-2-android-apk-download/) |
+| MacroDroid | `com.arlosoft.macrodroid` | 5.62.11 | <ul><li>Unlock premium features</li><li>Remove macro limits</li><li>Remove upgrade prompts</li><li>Template store working</li><li>⚠️ Template store home tab may show error (browsing/search works)</li></ul> | [APKMirror (APK)](https://www.apkmirror.com/apk/arlosoft/macrodroid-device-automation-2/macrodroid-device-automation-5-62-11-release/macrodroid-device-automation-5-62-11-2-android-apk-download/) |
 
 ## Usage
 
