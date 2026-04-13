@@ -12,9 +12,9 @@ val fingPremiumPatch = bytecodePatch(
     compatibleWith(COMPATIBILITY_FING)
 
     execute {
-        // Return GOD tier enum constant (highest tier)
+        // Return PREMIUM tier enum constant
         GetSubscriptionTierFingerprint.method.addInstructions(0, """
-            sget-object v0, Lfm/r;->e:Lfm/r;
+            sget-object v0, Lfm/r;->c:Lfm/r;
             return-object v0
         """)
 
