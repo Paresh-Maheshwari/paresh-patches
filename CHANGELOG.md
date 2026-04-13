@@ -1,3 +1,10 @@
+# [1.4.0-dev.6](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.5...v1.4.0-dev.6) (2026-04-13)
+
+
+### Bug Fixes
+
+* bypass template store signature check and block upgrade popup ([8b0f82f](https://github.com/Paresh-Maheshwari/paresh-patches/commit/8b0f82fc0a66107a08364ac576b0e7eada5b6292))
+
 # [1.4.0-dev.5](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.4...v1.4.0-dev.5) (2026-04-13)
 
 
