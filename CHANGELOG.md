@@ -1,3 +1,10 @@
+# [1.4.0-dev.5](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.4...v1.4.0-dev.5) (2026-04-13)
+
+
+### Reverts
+
+* Revert "fix: bypass template store signature check for MacroDroid" ([47f0224](https://github.com/Paresh-Maheshwari/paresh-patches/commit/47f02242e0cf220297ca988647f5c20a962c2731))
+
 # [1.4.0-dev.4](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.3...v1.4.0-dev.4) (2026-04-13)
 
 
