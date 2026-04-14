@@ -1,3 +1,10 @@
+# [1.4.0-dev.17](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.16...v1.4.0-dev.17) (2026-04-14)
+
+
+### Features
+
+* unlock all Fing feature entitlements ([f899365](https://github.com/Paresh-Maheshwari/paresh-patches/commit/f899365c0d49ef9ecc207f2af97afe680848f29f))
+
 # [1.4.0-dev.16](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.15...v1.4.0-dev.16) (2026-04-14)
 
 
