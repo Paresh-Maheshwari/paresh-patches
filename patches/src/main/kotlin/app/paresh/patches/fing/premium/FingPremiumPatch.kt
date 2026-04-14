@@ -17,5 +17,11 @@ val fingPremiumPatch = bytecodePatch(
             sget-object v0, Lfm/r;->c:Lfm/r;
             return-object v0
         """)
+
+        // Bypass scan limit check — always return true for premium status
+        IsPremiumCheckFingerprint.method.addInstructions(0, """
+            const/4 v0, 0x1
+            return v0
+        """)
     }
 }
