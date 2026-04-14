@@ -1,3 +1,10 @@
+# [1.4.0-dev.16](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.15...v1.4.0-dev.16) (2026-04-14)
+
+
+### Features
+
+* bypass Fing daily scan limit and security tab upgrade gate ([6ef6c60](https://github.com/Paresh-Maheshwari/paresh-patches/commit/6ef6c60af532450cb0111ea2e6b07626e882e589))
+
 # [1.4.0-dev.15](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.14...v1.4.0-dev.15) (2026-04-13)
 
 
