@@ -25,3 +25,13 @@ object IsPremiumCheckFingerprint : Fingerprint(
         methodCall("Lqo/o;->e()Z")
     )
 )
+
+// Targets gm.b.h(int) — checks if a specific feature ID is entitled for current plan
+object IsFeatureEntitledFingerprint : Fingerprint(
+    returnType = "Z",
+    parameters = listOf("I"),
+    filters = listOf(
+        methodCall("Lfm/p;->H()Z"),
+        methodCall("Ljava/util/stream/Stream;->anyMatch(Ljava/util/function/Predicate;)Z")
+    )
+)

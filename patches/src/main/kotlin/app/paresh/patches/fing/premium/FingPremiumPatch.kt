@@ -23,5 +23,11 @@ val fingPremiumPatch = bytecodePatch(
             const/4 v0, 0x1
             return v0
         """)
+
+        // All features entitled — always return true
+        IsFeatureEntitledFingerprint.method.addInstructions(0, """
+            const/4 v0, 0x1
+            return v0
+        """)
     }
 }
