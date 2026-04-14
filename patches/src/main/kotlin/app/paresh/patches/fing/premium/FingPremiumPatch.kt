@@ -12,10 +12,22 @@ val fingPremiumPatch = bytecodePatch(
     compatibleWith(COMPATIBILITY_FING)
 
     execute {
-        // Return PREMIUM tier enum constant directly
+        // Return PREMIUM tier enum constant
         GetSubscriptionTierFingerprint.method.addInstructions(0, """
             sget-object v0, Lfm/r;->c:Lfm/r;
             return-object v0
+        """)
+
+        // Bypass scan limit check — always return true for premium status
+        IsPremiumCheckFingerprint.method.addInstructions(0, """
+            const/4 v0, 0x1
+            return v0
+        """)
+
+        // All features entitled — always return true
+        IsFeatureEntitledFingerprint.method.addInstructions(0, """
+            const/4 v0, 0x1
+            return v0
         """)
     }
 }
