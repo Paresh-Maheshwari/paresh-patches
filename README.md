@@ -8,13 +8,38 @@ Custom [Morphe](https://morphe.software) patches for unlocking premium features 
 
 ## Patches
 
-| App | Package | Version | Patches | Download | Notes |
-|-----|---------|---------|---------|----------|-------|
-| Prompter Pal | `com.solid.teleprompter` | 6.8.2 | <ul><li>Unlock premium features</li></ul> | [APKPure (XAPK)](https://apkpure.net/teleprompter-vlog-scripts/com.solid.teleprompter) | |
-| VN - AI Video Editor | `com.frontrow.vlog` | 2.12.0 | <ul><li>Unlock premium features</li><li>Remove watermark</li><li>Hide Pro tab</li></ul> | [APKMirror (APKM)](https://www.apkmirror.com/apk/ubiquiti-labs-llc/vn-video-editor-maker-vlognow/) | |
-| Document Scanner | `com.cv.docscanner` | 6.8.18 | <ul><li>Unlock all premium</li><li>Remove ads</li><li>Pro themes & stickers</li></ul> | [APKPure (XAPK)](https://apkpure.net/document-scanner-pdf-creator/com.cv.docscanner/download) | |
-| Fing - Network Tools | `com.overlook.android.fing` | 12.11.9 | <ul><li>Unlock premium network tools</li><li>Bypass daily scan limit</li><li>Security tab unlocked</li><li>All feature entitlements</li></ul> | [APKMirror (APKM)](https://www.apkmirror.com/apk/fing-limited/fing-network-tools/fing-network-tools-12-11-9-release/) | Register at [fing.com](https://app.fing.com) first, then login in-app with email & password. Google/Facebook login won't work (signature mismatch). Account shows "Free" but all premium features are unlocked. |
-| MacroDroid | `com.arlosoft.macrodroid` | 5.62.11 | <ul><li>Unlock premium features</li><li>Remove macro limits</li><li>Remove upgrade prompts</li><li>Template store working</li><li>⚠️ Template store home tab may show error (browsing/search works)</li></ul> | [APKMirror (APK)](https://www.apkmirror.com/apk/arlosoft/macrodroid-device-automation-2/macrodroid-device-automation-5-62-11-release/macrodroid-device-automation-5-62-11-2-android-apk-download/) | |
+### Prompter Pal
+> `com.solid.teleprompter` · v6.8.2 · [APKPure (XAPK)](https://apkpure.net/teleprompter-vlog-scripts/com.solid.teleprompter)
+- Unlock premium features
+
+### VN - AI Video Editor
+> `com.frontrow.vlog` · v2.12.0 · [APKMirror (APKM)](https://www.apkmirror.com/apk/ubiquiti-labs-llc/vn-video-editor-maker-vlognow/)
+- Unlock premium features
+- Remove watermark
+- Hide Pro tab
+
+### Document Scanner
+> `com.cv.docscanner` · v6.8.18 · [APKPure (XAPK)](https://apkpure.net/document-scanner-pdf-creator/com.cv.docscanner/download)
+- Unlock all premium
+- Remove ads
+- Pro themes & stickers
+
+### Fing - Network Tools
+> `com.overlook.android.fing` · v12.11.9 · [APKMirror (APKM)](https://www.apkmirror.com/apk/fing-limited/fing-network-tools/fing-network-tools-12-11-9-release/)
+- Unlock premium network tools
+- Bypass daily scan limit
+- Security tab unlocked
+- All feature entitlements
+
+> **📝 Note:** Register at [fing.com](https://app.fing.com) first, then login in-app with email & password. Google/Facebook login won't work (signature mismatch). Account page shows "Free" but all premium features are unlocked.
+
+### MacroDroid
+> `com.arlosoft.macrodroid` · v5.62.11 · [APKMirror (APK)](https://www.apkmirror.com/apk/arlosoft/macrodroid-device-automation-2/macrodroid-device-automation-5-62-11-release/macrodroid-device-automation-5-62-11-2-android-apk-download/)
+- Unlock premium features
+- Remove macro limits
+- Remove upgrade prompts
+- Template store working
+- ⚠️ Template store home tab may show error (browsing/search works)
 
 ## Usage
 
