@@ -1,5 +1,5 @@
 {
-  "version": "1.4.0-dev.19",
+  "version": "1.4.0-dev.20",
   "patches": [
     {
       "name": "Doc Scanner Premium",
@@ -21,18 +21,6 @@
       "compatiblePackages": {
         "com.overlook.android.fing": [
           "12.11.9"
-        ]
-      },
-      "options": []
-    },
-    {
-      "name": "MacroDroid Premium",
-      "description": "Unlocks premium features and removes macro limits.",
-      "use": true,
-      "dependencies": [],
-      "compatiblePackages": {
-        "com.arlosoft.macrodroid": [
-          "5.62.11"
         ]
       },
       "options": []

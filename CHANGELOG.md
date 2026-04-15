@@ -1,3 +1,10 @@
+# [1.4.0-dev.20](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.19...v1.4.0-dev.20) (2026-04-15)
+
+
+### Bug Fixes
+
+* temporarily remove MacroDroid patch ([59db03c](https://github.com/Paresh-Maheshwari/paresh-patches/commit/59db03cfad3c8ba55ae765dbaf9f8cc607f88bc6))
+
 # [1.4.0-dev.19](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.18...v1.4.0-dev.19) (2026-04-15)
 
 
