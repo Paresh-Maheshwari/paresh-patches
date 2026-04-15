@@ -43,6 +43,15 @@ Custom [Morphe](https://morphe.software) patches for unlocking premium features 
 
 > **📝 Note:** Premium tab and Settings premium section still show upgrade prompts and 1970 date — this is cosmetic only, all features work. Gold caller ID badge on incoming calls is per-contact server data and cannot be patched.
 
+### MacroDroid 🧪
+> `com.arlosoft.macrodroid` · v5.62.11 · [APKMirror (APK)](https://www.apkmirror.com/apk/arlosoft/macrodroid-device-automation-2/macrodroid-device-automation-5-62-11-release/macrodroid-device-automation-5-62-11-2-android-apk-download/)
+- Unlock premium features
+- Remove macro limits
+- Remove upgrade prompts
+- Template store working
+
+> **🧪 Pre-release:** This patch is available on the `dev` branch only. Enable "Use pre-release patches" in Morphe Manager to use it.
+
 ## Usage
 
 [![Add to Morphe Manager](https://img.shields.io/badge/Add%20to-Morphe%20Manager-blue?style=for-the-badge)](https://morphe.software/add-source?github=Paresh-Maheshwari/paresh-patches)
