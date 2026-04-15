@@ -1,24 +1,16 @@
-## [1.5.1](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.5.0...v1.5.1) (2026-04-15)
+# [1.4.0-dev.19](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.18...v1.4.0-dev.19) (2026-04-15)
+
+
+### Features
+
+* add Truecaller Gold premium unlock patch ([92b5d42](https://github.com/Paresh-Maheshwari/paresh-patches/commit/92b5d422e5c8b41fac4adb5df35c9d1a2e3ae6ba))
+
+# [1.4.0-dev.18](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.17...v1.4.0-dev.18) (2026-04-15)
 
 
 ### Bug Fixes
 
 * correct app icon colors and remove descriptions from compatibility names ([f8fd18d](https://github.com/Paresh-Maheshwari/paresh-patches/commit/f8fd18dee3670b4fd24e265a939b97d7ce329d67))
-
-# [1.5.0](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.1...v1.5.0) (2026-04-14)
-
-
-### Bug Fixes
-
-* revert Fing T0 patch - causes app crash ([2b4fe63](https://github.com/Paresh-Maheshwari/paresh-patches/commit/2b4fe63888509682341d9e43f21748bc8f8a4648))
-* revert Fing to PREMIUM tier instead of GOD ([ff55756](https://github.com/Paresh-Maheshwari/paresh-patches/commit/ff55756f71c43ca86a02b9c6dd0874a3d08d5efa))
-
-
-### Features
-
-* bypass Fing daily scan limit and security tab upgrade gate ([6ef6c60](https://github.com/Paresh-Maheshwari/paresh-patches/commit/6ef6c60af532450cb0111ea2e6b07626e882e589))
-* bypass Fing scan limits, hide upgrade UI, use GOD tier ([afbabf3](https://github.com/Paresh-Maheshwari/paresh-patches/commit/afbabf31fd973e47ffeef834cefeb87fd59b8a15))
-* unlock all Fing feature entitlements ([f899365](https://github.com/Paresh-Maheshwari/paresh-patches/commit/f899365c0d49ef9ecc207f2af97afe680848f29f))
 
 # [1.4.0-dev.17](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.16...v1.4.0-dev.17) (2026-04-14)
 
