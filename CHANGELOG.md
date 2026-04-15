@@ -1,15 +1,58 @@
-# [1.6.0](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.5.1...v1.6.0) (2026-04-15)
-
-
-### Bug Fixes
-
-* remove Truecaller from stable release (testing on dev) ([f7c2f72](https://github.com/Paresh-Maheshwari/paresh-patches/commit/f7c2f72ce416221d7fef00290700e8ed48d584cc))
-* temporarily remove MacroDroid patch ([59db03c](https://github.com/Paresh-Maheshwari/paresh-patches/commit/59db03cfad3c8ba55ae765dbaf9f8cc607f88bc6))
+# [1.4.0-dev.27](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.26...v1.4.0-dev.27) (2026-04-15)
 
 
 ### Features
 
-* add Truecaller Gold premium unlock patch ([92b5d42](https://github.com/Paresh-Maheshwari/paresh-patches/commit/92b5d422e5c8b41fac4adb5df35c9d1a2e3ae6ba))
+* unlock all premium features (Max blocking, 140 series, telemarketers) ([3773b4d](https://github.com/Paresh-Maheshwari/paresh-patches/commit/3773b4d008a2990680448d68ccf6f523bfd6c6e9))
+
+# [1.4.0-dev.26](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.25...v1.4.0-dev.26) (2026-04-15)
+
+
+### Features
+
+* add Hide Scams tab and Hide Assistant tab patches for Truecaller ([a0385a8](https://github.com/Paresh-Maheshwari/paresh-patches/commit/a0385a882ffbe12d4947641b2670bdd9251ad326))
+
+# [1.4.0-dev.25](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.24...v1.4.0-dev.25) (2026-04-15)
+
+
+### Bug Fixes
+
+* revert to only isPremium + GOLD tier patches to fix crash ([5da55e1](https://github.com/Paresh-Maheshwari/paresh-patches/commit/5da55e15863a719dfe1470858d28800792139508))
+
+# [1.4.0-dev.24](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.23...v1.4.0-dev.24) (2026-04-15)
+
+
+### Bug Fixes
+
+* revert expiry/data patches that crash premium tab ([b8453ac](https://github.com/Paresh-Maheshwari/paresh-patches/commit/b8453ac0ca61dbda57974a183833c42d65259738))
+
+# [1.4.0-dev.23](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.22...v1.4.0-dev.23) (2026-04-15)
+
+
+### Bug Fixes
+
+* fix Truecaller renewal date (1970) and hide upgrade prompts ([84c7582](https://github.com/Paresh-Maheshwari/paresh-patches/commit/84c75826e4c4c2c3e3a91c322221db6c518877fe))
+
+# [1.4.0-dev.22](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.21...v1.4.0-dev.22) (2026-04-15)
+
+
+### Bug Fixes
+
+* fix Truecaller fingerprint - use constructor strings for class detection ([01a3804](https://github.com/Paresh-Maheshwari/paresh-patches/commit/01a3804d88803781d03bb84ee13737389da445ff))
+
+# [1.4.0-dev.21](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.20...v1.4.0-dev.21) (2026-04-15)
+
+
+### Features
+
+* add Truecaller ad removal and feature availability patches ([0c13218](https://github.com/Paresh-Maheshwari/paresh-patches/commit/0c132182ff229cb5e713ed1e0c4f14eec0c54786))
+
+# [1.4.0-dev.20](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.19...v1.4.0-dev.20) (2026-04-15)
+
+
+### Bug Fixes
+
+* temporarily remove MacroDroid patch ([59db03c](https://github.com/Paresh-Maheshwari/paresh-patches/commit/59db03cfad3c8ba55ae765dbaf9f8cc607f88bc6))
 
 # [1.4.0-dev.19](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.18...v1.4.0-dev.19) (2026-04-15)
 

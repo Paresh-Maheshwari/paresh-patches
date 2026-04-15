@@ -1,5 +1,5 @@
 {
-  "version": "1.6.0",
+  "version": "1.4.0-dev.27",
   "patches": [
     {
       "name": "Doc Scanner Premium",
@@ -21,6 +21,30 @@
       "compatiblePackages": {
         "com.overlook.android.fing": [
           "12.11.9"
+        ]
+      },
+      "options": []
+    },
+    {
+      "name": "Hide Assistant tab",
+      "description": "Hides the Assistant tab from the bottom navigation bar.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "com.truecaller": [
+          "26.10.6"
+        ]
+      },
+      "options": []
+    },
+    {
+      "name": "Hide Scams tab",
+      "description": "Hides the Scams tab from the bottom navigation bar.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "com.truecaller": [
+          "26.10.6"
         ]
       },
       "options": []
