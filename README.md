@@ -34,7 +34,7 @@ Custom [Morphe](https://morphe.software) patches for unlocking premium features 
 > **📝 Note:** Register at [fing.com](https://app.fing.com) first, then login in-app with email & password. Google/Facebook login won't work (signature mismatch). Account page shows "Free" but all premium features are unlocked.
 
 ### Truecaller
-> `com.truecaller` · v26.10.6 · [APKMirror (APKM)](https://www.apkmirror.com/apk/truecaller/truecaller/truecaller-26-10-6-release/)
+> `com.truecaller` · v26.10.6 · [APKMirror (APKM)](https://www.apkmirror.com/apk/true-software-scandinavia-ab/truecaller-caller-id-block/truecaller-trusted-caller-id-26-14-6-release/)
 - Unlock Gold premium
 - All features available (Max blocking, 140 series, telemarketers, etc.)
 - Remove ads

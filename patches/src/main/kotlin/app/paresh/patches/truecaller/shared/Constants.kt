@@ -9,7 +9,7 @@ object Constants {
         name = "Truecaller",
         packageName = "com.truecaller",
         apkFileType = ApkFileType.APKM,
-        appIconColor = 0x1B3A4B,
+        appIconColor = 0x0028FF,
         targets = listOf(
             AppTarget(version = "26.10.6")
         )
