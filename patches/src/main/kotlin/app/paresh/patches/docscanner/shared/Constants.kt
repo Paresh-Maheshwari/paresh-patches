@@ -6,7 +6,7 @@ import app.morphe.patcher.patch.Compatibility
 
 object Constants {
     val COMPATIBILITY_DOCSCANNER = Compatibility(
-        name = "Document Scanner - PDF Creator",
+        name = "Document Scanner",
         packageName = "com.cv.docscanner",
         apkFileType = ApkFileType.XAPK,
         appIconColor = 0x2196F3,
