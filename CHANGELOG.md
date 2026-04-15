@@ -1,3 +1,16 @@
+# [1.6.0](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.5.1...v1.6.0) (2026-04-15)
+
+
+### Bug Fixes
+
+* remove Truecaller from stable release (testing on dev) ([f7c2f72](https://github.com/Paresh-Maheshwari/paresh-patches/commit/f7c2f72ce416221d7fef00290700e8ed48d584cc))
+* temporarily remove MacroDroid patch ([59db03c](https://github.com/Paresh-Maheshwari/paresh-patches/commit/59db03cfad3c8ba55ae765dbaf9f8cc607f88bc6))
+
+
+### Features
+
+* add Truecaller Gold premium unlock patch ([92b5d42](https://github.com/Paresh-Maheshwari/paresh-patches/commit/92b5d422e5c8b41fac4adb5df35c9d1a2e3ae6ba))
+
 # [1.4.0-dev.19](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.18...v1.4.0-dev.19) (2026-04-15)
 
 

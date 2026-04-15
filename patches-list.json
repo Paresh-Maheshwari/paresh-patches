@@ -1,5 +1,5 @@
 {
-  "version": "1.4.0-dev.19",
+  "version": "1.6.0",
   "patches": [
     {
       "name": "Doc Scanner Premium",
@@ -26,18 +26,6 @@
       "options": []
     },
     {
-      "name": "MacroDroid Premium",
-      "description": "Unlocks premium features and removes macro limits.",
-      "use": true,
-      "dependencies": [],
-      "compatiblePackages": {
-        "com.arlosoft.macrodroid": [
-          "5.62.11"
-        ]
-      },
-      "options": []
-    },
-    {
       "name": "Teleprompter Premium",
       "description": "Unlocks premium features in Teleprompter Vlog & Scripts app.",
       "use": true,
@@ -46,18 +34,6 @@
         "com.solid.teleprompter": [
           "6.8.2",
           "6.8.1"
-        ]
-      },
-      "options": []
-    },
-    {
-      "name": "Truecaller Premium",
-      "description": "Unlocks premium features.",
-      "use": true,
-      "dependencies": [],
-      "compatiblePackages": {
-        "com.truecaller": [
-          "26.10.6"
         ]
       },
       "options": []
