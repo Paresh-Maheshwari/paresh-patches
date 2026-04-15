@@ -24,12 +24,6 @@ val truecallerPremiumPatch = bytecodePatch(
             return-object v0
         """)
 
-        // Hide ads — shouldShowAds returns false
-        ShouldShowAdsClassFingerprint.method.addInstructions(0, """
-            const/4 v0, 0x0
-            return v0
-        """)
-
         // All features available
         IsFeatureAvailableFingerprint.method.addInstructions(0, """
             const/4 v0, 0x1
