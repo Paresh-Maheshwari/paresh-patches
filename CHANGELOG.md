@@ -1,3 +1,10 @@
+## [1.5.1](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.5.0...v1.5.1) (2026-04-15)
+
+
+### Bug Fixes
+
+* correct app icon colors and remove descriptions from compatibility names ([f8fd18d](https://github.com/Paresh-Maheshwari/paresh-patches/commit/f8fd18dee3670b4fd24e265a939b97d7ce329d67))
+
 # [1.5.0](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.1...v1.5.0) (2026-04-14)
 
 
