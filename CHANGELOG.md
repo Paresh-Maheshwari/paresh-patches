@@ -1,3 +1,10 @@
+# [1.4.0-dev.26](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.25...v1.4.0-dev.26) (2026-04-15)
+
+
+### Features
+
+* add Hide Scams tab and Hide Assistant tab patches for Truecaller ([a0385a8](https://github.com/Paresh-Maheshwari/paresh-patches/commit/a0385a882ffbe12d4947641b2670bdd9251ad326))
+
 # [1.4.0-dev.25](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.24...v1.4.0-dev.25) (2026-04-15)
 
 
