@@ -9,7 +9,7 @@ object Constants {
         name = "MacroDroid",
         packageName = "com.arlosoft.macrodroid",
         apkFileType = ApkFileType.APK,
-        appIconColor = 0xF44336,
+        appIconColor = 0x20334D,
         targets = listOf(
             AppTarget(version = "5.62.11")
         )

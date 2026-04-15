@@ -6,10 +6,10 @@ import app.morphe.patcher.patch.Compatibility
 
 object Constants {
     val COMPATIBILITY_VN = Compatibility(
-        name = "VN - AI Video Editor",
+        name = "VN",
         packageName = "com.frontrow.vlog",
         apkFileType = ApkFileType.APKM,
-        appIconColor = 0x00C853,
+        appIconColor = 0x42484B,
         targets = listOf(
             AppTarget(version = "2.12.0")
         )

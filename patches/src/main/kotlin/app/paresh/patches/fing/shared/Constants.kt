@@ -6,10 +6,10 @@ import app.morphe.patcher.patch.Compatibility
 
 object Constants {
     val COMPATIBILITY_FING = Compatibility(
-        name = "Fing - Network Tools",
+        name = "Fing",
         packageName = "com.overlook.android.fing",
         apkFileType = ApkFileType.APKM,
-        appIconColor = 0x0288D1,
+        appIconColor = 0x003AAA,
         targets = listOf(
             AppTarget(version = "12.11.9")
         )
