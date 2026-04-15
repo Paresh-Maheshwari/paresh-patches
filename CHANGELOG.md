@@ -1,3 +1,10 @@
+# [1.4.0-dev.21](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.20...v1.4.0-dev.21) (2026-04-15)
+
+
+### Features
+
+* add Truecaller ad removal and feature availability patches ([0c13218](https://github.com/Paresh-Maheshwari/paresh-patches/commit/0c132182ff229cb5e713ed1e0c4f14eec0c54786))
+
 # [1.4.0-dev.20](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.19...v1.4.0-dev.20) (2026-04-15)
 
 
