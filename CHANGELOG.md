@@ -1,3 +1,21 @@
+# [1.7.0](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.6.0...v1.7.0) (2026-04-15)
+
+
+### Bug Fixes
+
+* fix Truecaller fingerprint - use constructor strings for class detection ([01a3804](https://github.com/Paresh-Maheshwari/paresh-patches/commit/01a3804d88803781d03bb84ee13737389da445ff))
+* fix Truecaller renewal date (1970) and hide upgrade prompts ([84c7582](https://github.com/Paresh-Maheshwari/paresh-patches/commit/84c75826e4c4c2c3e3a91c322221db6c518877fe))
+* revert expiry/data patches that crash premium tab ([b8453ac](https://github.com/Paresh-Maheshwari/paresh-patches/commit/b8453ac0ca61dbda57974a183833c42d65259738))
+* revert to only isPremium + GOLD tier patches to fix crash ([5da55e1](https://github.com/Paresh-Maheshwari/paresh-patches/commit/5da55e15863a719dfe1470858d28800792139508))
+* update Truecaller icon color and download link ([e7dadbf](https://github.com/Paresh-Maheshwari/paresh-patches/commit/e7dadbfb65423dd5aabb07b50703adae86641964))
+
+
+### Features
+
+* add Hide Scams tab and Hide Assistant tab patches for Truecaller ([a0385a8](https://github.com/Paresh-Maheshwari/paresh-patches/commit/a0385a882ffbe12d4947641b2670bdd9251ad326))
+* add Truecaller ad removal and feature availability patches ([0c13218](https://github.com/Paresh-Maheshwari/paresh-patches/commit/0c132182ff229cb5e713ed1e0c4f14eec0c54786))
+* unlock all premium features (Max blocking, 140 series, telemarketers) ([3773b4d](https://github.com/Paresh-Maheshwari/paresh-patches/commit/3773b4d008a2990680448d68ccf6f523bfd6c6e9))
+
 # [1.4.0-dev.27](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.26...v1.4.0-dev.27) (2026-04-15)
 
 
