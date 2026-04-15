@@ -52,6 +52,8 @@ Custom [Morphe](https://morphe.software) patches for unlocking premium features 
 3. Download the correct APK format (XAPK/APKM) from the links in the table
 4. Select the app and apply patches in Morphe Manager
 
+> **🧪 Pre-release patches:** Enable "Use pre-release patches" in Morphe Manager to access patches still being tested on the `dev` branch (e.g. MacroDroid).
+
 ## Request a Patch
 
 Want a new app patched? [Open a patch request](https://github.com/Paresh-Maheshwari/paresh-patches/issues/new?template=patch-request.yml).
