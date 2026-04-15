@@ -23,17 +23,5 @@ val truecallerPremiumPatch = bytecodePatch(
             sget-object v0, Lcom/truecaller/premium/data/tier/PremiumTierType;->GOLD:Lcom/truecaller/premium/data/tier/PremiumTierType;
             return-object v0
         """)
-
-        // All features available
-        IsFeatureAvailableFingerprint.method.addInstructions(0, """
-            const/4 v0, 0x1
-            return v0
-        """)
-
-        // All features exist
-        HasFeatureFingerprint.method.addInstructions(0, """
-            const/4 v0, 0x1
-            return v0
-        """)
     }
 }
