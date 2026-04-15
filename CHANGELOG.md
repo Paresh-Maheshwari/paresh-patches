@@ -1,3 +1,10 @@
+# [1.4.0-dev.25](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.24...v1.4.0-dev.25) (2026-04-15)
+
+
+### Bug Fixes
+
+* revert to only isPremium + GOLD tier patches to fix crash ([5da55e1](https://github.com/Paresh-Maheshwari/paresh-patches/commit/5da55e15863a719dfe1470858d28800792139508))
+
 # [1.4.0-dev.24](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.23...v1.4.0-dev.24) (2026-04-15)
 
 

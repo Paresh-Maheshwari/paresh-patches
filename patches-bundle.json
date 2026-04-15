@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-04-15T16:53:37",
-  "description": "# [1.4.0-dev.24](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.23...v1.4.0-dev.24) (2026-04-15)\n\n\n### Bug Fixes\n\n* revert expiry/data patches that crash premium tab ([b8453ac](https://github.com/Paresh-Maheshwari/paresh-patches/commit/b8453ac0ca61dbda57974a183833c42d65259738))",
-  "download_url": "https://github.com/Paresh-Maheshwari/paresh-patches/releases/download/v1.4.0-dev.24/patches-1.4.0-dev.24.mpp",
+  "created_at": "2026-04-15T17:09:28",
+  "description": "# [1.4.0-dev.25](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.24...v1.4.0-dev.25) (2026-04-15)\n\n\n### Bug Fixes\n\n* revert to only isPremium + GOLD tier patches to fix crash ([5da55e1](https://github.com/Paresh-Maheshwari/paresh-patches/commit/5da55e15863a719dfe1470858d28800792139508))",
+  "download_url": "https://github.com/Paresh-Maheshwari/paresh-patches/releases/download/v1.4.0-dev.25/patches-1.4.0-dev.25.mpp",
   "signature_download_url": "",
-  "version": "1.4.0-dev.24"
+  "version": "1.4.0-dev.25"
 }
