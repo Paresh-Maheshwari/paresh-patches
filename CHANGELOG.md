@@ -1,3 +1,10 @@
+# [1.4.0-dev.24](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.23...v1.4.0-dev.24) (2026-04-15)
+
+
+### Bug Fixes
+
+* revert expiry/data patches that crash premium tab ([b8453ac](https://github.com/Paresh-Maheshwari/paresh-patches/commit/b8453ac0ca61dbda57974a183833c42d65259738))
+
 # [1.4.0-dev.23](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.22...v1.4.0-dev.23) (2026-04-15)
 
 

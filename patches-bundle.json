@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-04-15T16:45:49",
-  "description": "# [1.4.0-dev.23](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.22...v1.4.0-dev.23) (2026-04-15)\n\n\n### Bug Fixes\n\n* fix Truecaller renewal date (1970) and hide upgrade prompts ([84c7582](https://github.com/Paresh-Maheshwari/paresh-patches/commit/84c75826e4c4c2c3e3a91c322221db6c518877fe))",
-  "download_url": "https://github.com/Paresh-Maheshwari/paresh-patches/releases/download/v1.4.0-dev.23/patches-1.4.0-dev.23.mpp",
+  "created_at": "2026-04-15T16:53:37",
+  "description": "# [1.4.0-dev.24](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.23...v1.4.0-dev.24) (2026-04-15)\n\n\n### Bug Fixes\n\n* revert expiry/data patches that crash premium tab ([b8453ac](https://github.com/Paresh-Maheshwari/paresh-patches/commit/b8453ac0ca61dbda57974a183833c42d65259738))",
+  "download_url": "https://github.com/Paresh-Maheshwari/paresh-patches/releases/download/v1.4.0-dev.24/patches-1.4.0-dev.24.mpp",
   "signature_download_url": "",
-  "version": "1.4.0-dev.23"
+  "version": "1.4.0-dev.24"
 }
