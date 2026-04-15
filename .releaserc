@@ -28,7 +28,7 @@
     [
       "@semantic-release/exec",
       {
-        "prepareCmd": "jq '.version=\"${nextRelease.version}\"' patches-list.json > patches-list.json.tmp && mv patches-list.json.tmp patches-list.json"
+        "prepareCmd": "jq '.version=\"${nextRelease.version}\"' patches-list.json > patches-list.json.tmp && mv patches-list.json.tmp patches-list.json && rm -f patches/build/libs/*.mpp && ./gradlew :patches:buildAndroid"
       }
     ],
     [

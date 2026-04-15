@@ -33,14 +33,6 @@ Custom [Morphe](https://morphe.software) patches for unlocking premium features 
 
 > **📝 Note:** Register at [fing.com](https://app.fing.com) first, then login in-app with email & password. Google/Facebook login won't work (signature mismatch). Account page shows "Free" but all premium features are unlocked.
 
-### MacroDroid
-> `com.arlosoft.macrodroid` · v5.62.11 · [APKMirror (APK)](https://www.apkmirror.com/apk/arlosoft/macrodroid-device-automation-2/macrodroid-device-automation-5-62-11-release/macrodroid-device-automation-5-62-11-2-android-apk-download/)
-- Unlock premium features
-- Remove macro limits
-- Remove upgrade prompts
-- Template store working
-- ⚠️ Template store home tab may show error (browsing/search works)
-
 ## Usage
 
 [![Add to Morphe Manager](https://img.shields.io/badge/Add%20to-Morphe%20Manager-blue?style=for-the-badge)](https://morphe.software/add-source?github=Paresh-Maheshwari/paresh-patches)
