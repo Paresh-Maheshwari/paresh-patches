@@ -1,3 +1,10 @@
+# [1.4.0-dev.23](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.22...v1.4.0-dev.23) (2026-04-15)
+
+
+### Bug Fixes
+
+* fix Truecaller renewal date (1970) and hide upgrade prompts ([84c7582](https://github.com/Paresh-Maheshwari/paresh-patches/commit/84c75826e4c4c2c3e3a91c322221db6c518877fe))
+
 # [1.4.0-dev.22](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.21...v1.4.0-dev.22) (2026-04-15)
 
 
