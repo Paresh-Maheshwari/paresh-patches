@@ -1,3 +1,10 @@
+# [1.4.0-dev.28](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.27...v1.4.0-dev.28) (2026-04-15)
+
+
+### Bug Fixes
+
+* update Truecaller icon color and download link ([e7dadbf](https://github.com/Paresh-Maheshwari/paresh-patches/commit/e7dadbfb65423dd5aabb07b50703adae86641964))
+
 # [1.4.0-dev.27](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.26...v1.4.0-dev.27) (2026-04-15)
 
 
