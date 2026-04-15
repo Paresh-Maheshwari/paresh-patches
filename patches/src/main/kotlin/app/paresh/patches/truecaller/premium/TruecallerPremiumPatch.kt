@@ -35,5 +35,17 @@ val truecallerPremiumPatch = bytecodePatch(
             const/4 v0, 0x1
             return v0
         """)
+
+        // Return far-future expiry date (year 2099) instead of 0 (1970)
+        GetExpiryTimestampFingerprint.method.addInstructions(0, """
+            const-wide v0, 0x3BB266F5C40L
+            return-wide v0
+        """)
+
+        // Premium data is complete — prevents upgrade prompts
+        IsPremiumDataIncompleteFingerprint.method.addInstructions(0, """
+            const/4 v0, 0x0
+            return v0
+        """)
     }
 }

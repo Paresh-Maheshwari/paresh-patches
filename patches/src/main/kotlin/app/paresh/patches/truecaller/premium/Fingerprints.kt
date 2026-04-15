@@ -42,3 +42,25 @@ object HasFeatureFingerprint : Fingerprint(
     parameters = listOf("Lcom/truecaller/premium/data/feature/PremiumFeature;"),
     accessFlags = listOf(AccessFlags.PUBLIC, AccessFlags.FINAL),
 )
+
+// Targets com.truecaller.premium.data.k.m1() — returns premiumExpiresTimestamp
+// Default 0 shows as 01/01/1970
+object GetExpiryTimestampFingerprint : Fingerprint(
+    returnType = "J",
+    parameters = listOf(),
+    filters = listOf(
+        string("premiumExpiresTimestamp")
+    )
+)
+
+// Targets com.truecaller.premium.data.k.v() — checks if premium data is complete
+// Returns true when data is missing → triggers upgrade prompts
+object IsPremiumDataIncompleteFingerprint : Fingerprint(
+    returnType = "Z",
+    parameters = listOf(),
+    filters = listOf(
+        string("premiumLastFetchDate"),
+        string("premiumLevel"),
+        string("premiumKind")
+    )
+)
