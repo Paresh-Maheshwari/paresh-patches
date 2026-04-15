@@ -1,3 +1,10 @@
+# [1.4.0-dev.27](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.26...v1.4.0-dev.27) (2026-04-15)
+
+
+### Features
+
+* unlock all premium features (Max blocking, 140 series, telemarketers) ([3773b4d](https://github.com/Paresh-Maheshwari/paresh-patches/commit/3773b4d008a2990680448d68ccf6f523bfd6c6e9))
+
 # [1.4.0-dev.26](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.25...v1.4.0-dev.26) (2026-04-15)
 
 
