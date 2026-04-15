@@ -1,3 +1,10 @@
+# [1.4.0-dev.19](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.18...v1.4.0-dev.19) (2026-04-15)
+
+
+### Features
+
+* add Truecaller Gold premium unlock patch ([92b5d42](https://github.com/Paresh-Maheshwari/paresh-patches/commit/92b5d422e5c8b41fac4adb5df35c9d1a2e3ae6ba))
+
 # [1.4.0-dev.18](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.17...v1.4.0-dev.18) (2026-04-15)
 
 

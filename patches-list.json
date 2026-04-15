@@ -1,5 +1,5 @@
 {
-  "version": "1.4.0-dev.18",
+  "version": "1.4.0-dev.19",
   "patches": [
     {
       "name": "Doc Scanner Premium",
@@ -46,6 +46,18 @@
         "com.solid.teleprompter": [
           "6.8.2",
           "6.8.1"
+        ]
+      },
+      "options": []
+    },
+    {
+      "name": "Truecaller Premium",
+      "description": "Unlocks premium features.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "com.truecaller": [
+          "26.10.6"
         ]
       },
       "options": []
