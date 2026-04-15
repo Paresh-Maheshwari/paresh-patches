@@ -1,3 +1,10 @@
+# [1.4.0-dev.22](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.21...v1.4.0-dev.22) (2026-04-15)
+
+
+### Bug Fixes
+
+* fix Truecaller fingerprint - use constructor strings for class detection ([01a3804](https://github.com/Paresh-Maheshwari/paresh-patches/commit/01a3804d88803781d03bb84ee13737389da445ff))
+
 # [1.4.0-dev.21](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.20...v1.4.0-dev.21) (2026-04-15)
 
 
