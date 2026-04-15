@@ -2,7 +2,6 @@ package app.paresh.patches.truecaller.premium
 
 import app.morphe.patcher.Fingerprint
 import app.morphe.patcher.string
-import com.android.tools.smali.dexlib2.AccessFlags
 
 // Targets com.truecaller.premium.data.k.b() — the central isPremium check
 object IsPremiumFingerprint : Fingerprint(
@@ -33,12 +32,4 @@ object IsFeatureAvailableFingerprint : Fingerprint(
     classFingerprint = PremiumFeatureManagerClassFingerprint,
     returnType = "Z",
     parameters = listOf("Lcom/truecaller/premium/data/feature/PremiumFeature;", "Z"),
-)
-
-// Targets g02.k.f(PremiumFeature) — checks if feature exists
-object HasFeatureFingerprint : Fingerprint(
-    classFingerprint = PremiumFeatureManagerClassFingerprint,
-    returnType = "Z",
-    parameters = listOf("Lcom/truecaller/premium/data/feature/PremiumFeature;"),
-    accessFlags = listOf(AccessFlags.PUBLIC, AccessFlags.FINAL),
 )

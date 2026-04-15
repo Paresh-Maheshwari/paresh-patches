@@ -23,5 +23,11 @@ val truecallerPremiumPatch = bytecodePatch(
             sget-object v0, Lcom/truecaller/premium/data/tier/PremiumTierType;->GOLD:Lcom/truecaller/premium/data/tier/PremiumTierType;
             return-object v0
         """)
+
+        // All features available — unlocks Max blocking, 140 series, telemarketers etc.
+        IsFeatureAvailableFingerprint.method.addInstructions(0, """
+            const/4 v0, 0x1
+            return v0
+        """)
     }
 }
