@@ -48,7 +48,7 @@ Custom [Morphe](https://morphe.software) patches for unlocking premium features 
 - Unlock premium features
 - Remove macro limits
 - Remove upgrade prompts
-- Template store working
+- Template Macros store Home Page Not working, For Macros Access use a Use a Serach Button to it Get all 
 
 > **🧪 Pre-release:** This patch is available on the `dev` branch only. Enable "Use pre-release patches" in Morphe Manager to use it.
 
