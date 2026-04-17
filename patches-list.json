@@ -38,6 +38,30 @@
       "options": []
     },
     {
+      "name": "Hide Premium from settings",
+      "description": "Hides the Premium options from the settings page.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "com.truecaller": [
+          "26.10.6"
+        ]
+      },
+      "options": []
+    },
+    {
+      "name": "Hide Premium tab",
+      "description": "Hides the Premium tab from the bottom navigation bar.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "com.truecaller": [
+          "26.10.6"
+        ]
+      },
+      "options": []
+    },
+    {
       "name": "Hide Scams tab",
       "description": "Hides the Scams tab from the bottom navigation bar.",
       "use": true,
