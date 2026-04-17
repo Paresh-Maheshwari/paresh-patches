@@ -47,6 +47,12 @@ Custom [Morphe](https://morphe.software) patches for unlocking premium features 
 
 > **📝 Note:** "Who viewed my profile" is server-side and cannot be patched. Gold caller ID badge on incoming calls is per-contact server data.
 
+### Mark - Auto Screenshot Deleter
+> `com.markOne.ss_app` · v6.6 · [APKPure (XAPK)](https://apkpure.com/mark-auto-screenshot-deleter/com.markOne.ss_app/download)
+- Unlock premium features
+- Remove ads
+- Bypass Play Store license check
+
 ## Usage
 
 [![Add to Morphe Manager](https://img.shields.io/badge/Add%20to-Morphe%20Manager-blue?style=for-the-badge)](https://morphe.software/add-source?github=Paresh-Maheshwari/paresh-patches)
