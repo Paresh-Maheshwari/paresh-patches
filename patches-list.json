@@ -1,5 +1,5 @@
 {
-  "version": "1.4.0-dev.29",
+  "version": "1.4.0-dev.30",
   "patches": [
     {
       "name": "Doc Scanner Premium",
@@ -81,6 +81,18 @@
       "compatiblePackages": {
         "com.arlosoft.macrodroid": [
           "5.62.11"
+        ]
+      },
+      "options": []
+    },
+    {
+      "name": "Mark Premium",
+      "description": "Unlocks premium features and removes ads.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "com.markOne.ss_app": [
+          "6.6"
         ]
       },
       "options": []

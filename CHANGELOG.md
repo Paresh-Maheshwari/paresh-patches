@@ -1,3 +1,10 @@
+# [1.4.0-dev.30](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.29...v1.4.0-dev.30) (2026-04-17)
+
+
+### Features
+
+* add Mark - Auto Screenshot Deleter premium unlock patch ([d6f7799](https://github.com/Paresh-Maheshwari/paresh-patches/commit/d6f7799a4c3c5d0c1944e6540d80f3555f18cfd8))
+
 # [1.4.0-dev.29](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.28...v1.4.0-dev.29) (2026-04-17)
 
 
