@@ -1,6 +1,42 @@
 {
-  "version": "1.4.0-dev.30",
+  "version": "1.4.0-dev.31",
   "patches": [
+    {
+      "name": "Bypass content restrictions",
+      "description": "Allows copying, saving, and screenshots from restricted channels.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "org.telegram.messenger.web": [
+          "12.6.4"
+        ]
+      },
+      "options": []
+    },
+    {
+      "name": "Bypass integrity",
+      "description": "Bypasses integrity check to allow login on patched app.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "org.telegram.messenger.web": [
+          "12.6.4"
+        ]
+      },
+      "options": []
+    },
+    {
+      "name": "Disable auto update",
+      "description": "Disables automatic app update checks.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "org.telegram.messenger.web": [
+          "12.6.4"
+        ]
+      },
+      "options": []
+    },
     {
       "name": "Doc Scanner Premium",
       "description": "Unlocks all premium features, removes ads, and enables pro themes.",
@@ -9,6 +45,18 @@
       "compatiblePackages": {
         "com.cv.docscanner": [
           "6.8.18"
+        ]
+      },
+      "options": []
+    },
+    {
+      "name": "Download speed boost",
+      "description": "Increases download chunk size and max concurrent requests.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "org.telegram.messenger.web": [
+          "12.6.4"
         ]
       },
       "options": []
@@ -74,6 +122,18 @@
       "options": []
     },
     {
+      "name": "Hide typing indicator",
+      "description": "Hides your typing indicator from other users.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "org.telegram.messenger.web": [
+          "12.6.4"
+        ]
+      },
+      "options": []
+    },
+    {
       "name": "MacroDroid Premium",
       "description": "Unlocks premium features and removes macro limits.",
       "use": true,
@@ -93,6 +153,30 @@
       "compatiblePackages": {
         "com.markOne.ss_app": [
           "6.6"
+        ]
+      },
+      "options": []
+    },
+    {
+      "name": "Remove ads",
+      "description": "Removes sponsored messages and video ads.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "org.telegram.messenger.web": [
+          "12.6.4"
+        ]
+      },
+      "options": []
+    },
+    {
+      "name": "Telegram Premium",
+      "description": "Unlocks premium features.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "org.telegram.messenger.web": [
+          "12.6.4"
         ]
       },
       "options": []

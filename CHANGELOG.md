@@ -1,3 +1,10 @@
+# [1.4.0-dev.31](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.30...v1.4.0-dev.31) (2026-04-17)
+
+
+### Features
+
+* add Telegram patches - premium, integrity, content bypass, ads, auto update, typing, download boost ([1a9a76b](https://github.com/Paresh-Maheshwari/paresh-patches/commit/1a9a76b44ce90100bd7b1a9eafe0f2a19a987e3a))
+
 # [1.4.0-dev.30](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.29...v1.4.0-dev.30) (2026-04-17)
 
 
