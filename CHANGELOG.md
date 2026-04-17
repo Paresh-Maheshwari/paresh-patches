@@ -11,6 +11,19 @@
 * add MacroDroid patch to dev for testing (includes template store fix) ([162e163](https://github.com/Paresh-Maheshwari/paresh-patches/commit/162e1634e701209b214865a17de47875fabc2022))
 * fix Truecaller blocking reset, notification, hide premium tab/settings ([56dfeda](https://github.com/Paresh-Maheshwari/paresh-patches/commit/56dfeda17cd39826240572b6bb0282793a34a437))
 
+# [1.4.0-dev.28](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.27...v1.4.0-dev.28) (2026-04-17)
+
+
+### Bug Fixes
+
+* update Truecaller icon color and download link ([e7dadbf](https://github.com/Paresh-Maheshwari/paresh-patches/commit/e7dadbfb65423dd5aabb07b50703adae86641964))
+
+
+### Features
+
+* add MacroDroid patch to dev for testing (includes template store fix) ([162e163](https://github.com/Paresh-Maheshwari/paresh-patches/commit/162e1634e701209b214865a17de47875fabc2022))
+* fix Truecaller blocking reset, notification, hide premium tab/settings ([56dfeda](https://github.com/Paresh-Maheshwari/paresh-patches/commit/56dfeda17cd39826240572b6bb0282793a34a437))
+
 # [1.4.0-dev.28](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.27...v1.4.0-dev.28) (2026-04-15)
 
 
