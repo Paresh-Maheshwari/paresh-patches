@@ -47,6 +47,18 @@ Custom [Morphe](https://morphe.software) patches for unlocking premium features 
 
 > **📝 Note:** "Who viewed my profile" is server-side and cannot be patched. Gold caller ID badge on incoming calls is per-contact server data.
 
+### Telegram
+> `org.telegram.messenger.web` · v12.6.4 · [APKMirror (APK)](https://www.apkmirror.com/apk/telegram-fz-llc/telegram-web-version/telegram-web-version-12-6-4-release/)
+- Unlock premium features (client-side only)
+- Bypass integrity check for login
+- Copy, save, screenshot from restricted channels
+- Remove sponsored messages
+- Disable auto update
+- Hide typing indicator (optional)
+- Download speed boost (optional)
+
+> **📝 Note:** Premium is client-side UI only — server-validated features (upload size, etc.) won't work. Forwarding from restricted channels is server-side enforced and cannot be bypassed.
+
 ### Mark - Auto Screenshot Deleter
 > `com.markOne.ss_app` · v6.6 · [APKPure (XAPK)](https://apkpure.com/mark-auto-screenshot-deleter/com.markOne.ss_app/download)
 - Unlock premium features
