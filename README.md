@@ -38,10 +38,14 @@ Custom [Morphe](https://morphe.software) patches for unlocking premium features 
 - Unlock Gold premium
 - All features available (Max blocking, 140 series, telemarketers, etc.)
 - Remove ads
+- Prevent server from resetting blocking settings
+- Block subscription expired notification
+- Hide Premium tab (optional)
+- Hide Premium from settings (optional)
 - Hide Scams tab (optional)
 - Hide Assistant tab (optional)
 
-> **📝 Note:** Premium tab and Settings premium section still show upgrade prompts and 1970 date — this is cosmetic only, all features work. Gold caller ID badge on incoming calls is per-contact server data and cannot be patched.
+> **📝 Note:** "Who viewed my profile" is server-side and cannot be patched. Gold caller ID badge on incoming calls is per-contact server data.
 
 ## Usage
 
