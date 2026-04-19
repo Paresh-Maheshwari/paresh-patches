@@ -1,5 +1,5 @@
 {
-  "version": "1.4.0-dev.32",
+  "version": "1.4.0-dev.33",
   "patches": [
     {
       "name": "Bypass channel restrictions",
@@ -81,6 +81,18 @@
       "compatiblePackages": {
         "org.telegram.messenger.web": [
           "12.6.4"
+        ]
+      },
+      "options": []
+    },
+    {
+      "name": "Eyecon Premium",
+      "description": "Unlocks premium features.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "com.eyecon.global": [
+          "4.2026.04.05.1300"
         ]
       },
       "options": []

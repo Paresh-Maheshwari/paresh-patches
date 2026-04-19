@@ -1,3 +1,10 @@
+# [1.4.0-dev.33](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.32...v1.4.0-dev.33) (2026-04-19)
+
+
+### Features
+
+* add Eyecon Caller ID premium unlock ([c9e27e4](https://github.com/Paresh-Maheshwari/paresh-patches/commit/c9e27e490ea3989ba225f55b1d003915e40390d2))
+
 # [1.4.0-dev.32](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.31...v1.4.0-dev.32) (2026-04-19)
 
 
