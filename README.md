@@ -60,6 +60,12 @@ Custom [Morphe](https://morphe.software) patches for unlocking premium features 
 
 > **📝 Note:** Premium is client-side UI only — server-validated features (upload size, etc.) won't work.
 
+### Eyecon Caller ID & Spam Block
+> `com.eyecon.global` · v4.2026.04.05.1300 · [APKMirror (APKM)](https://www.apkmirror.com/apk/eyecon-phone-dialer-contacts/eyecon-caller-id-spam-block/eyecon-caller-id-spam-block-4-2026-04-05-1300-release/)
+- Unlock premium features
+- Hide premium button from bottom bar
+- Hide premium from settings
+
 ### CREX - Just Cricket
 > `in.cricketexchange.app.cricketexchange` · v26.04.05 · [APKMirror (APKM)](https://www.apkmirror.com/apk/cricket-exchange/cricket-exchange-live-score-analysis/crex-just-cricket-26-04-05-release/crex-just-cricket-26-04-05-android-apk-download/)
 - Unlock premium features
