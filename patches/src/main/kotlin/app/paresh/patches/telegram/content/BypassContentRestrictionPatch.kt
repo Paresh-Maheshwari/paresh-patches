@@ -2,8 +2,13 @@ package app.paresh.patches.telegram.content
 
 import app.morphe.patcher.Fingerprint
 import app.morphe.patcher.extensions.InstructionExtensions.addInstructions
+import app.morphe.patcher.extensions.InstructionExtensions.getInstruction
+import app.morphe.patcher.extensions.InstructionExtensions.replaceInstruction
+import app.morphe.patcher.fieldAccess
 import app.morphe.patcher.patch.bytecodePatch
 import app.paresh.patches.telegram.shared.Constants.COMPATIBILITY_TELEGRAM
+import com.android.tools.smali.dexlib2.Opcode
+import com.android.tools.smali.dexlib2.iface.instruction.TwoRegisterInstruction
 
 object IsChatNoForwardsLongFingerprint : Fingerprint(
     definingClass = "Lorg/telegram/messenger/MessagesController;",
@@ -31,15 +36,34 @@ object ProfileActivityIsPeerNoForwardsFingerprint : Fingerprint(
     returnType = "Z",
 )
 
+object CanForwardMessageFingerprint : Fingerprint(
+    definingClass = "Lorg/telegram/messenger/MessageObject;",
+    name = "canForwardMessage",
+    returnType = "Z",
+    parameters = listOf(),
+)
+
+object HasSelectedNoforwardsMessageFingerprint : Fingerprint(
+    definingClass = "Lorg/telegram/ui/ChatActivity;",
+    name = "hasSelectedNoforwardsMessage",
+    returnType = "Z",
+)
+
+object MessagesControllerIsPeerNoForwardsFingerprint : Fingerprint(
+    definingClass = "Lorg/telegram/messenger/MessagesController;",
+    name = "isPeerNoForwards",
+    returnType = "Z",
+    parameters = listOf("J"),
+)
+
 @Suppress("unused")
 val bypassContentRestrictionPatch = bytecodePatch(
     name = "Bypass content restrictions",
-    description = "Allows copying, saving, and screenshots from restricted channels."
+    description = "Allows copying, saving, forwarding, and screenshots from restricted channels."
 ) {
     compatibleWith(COMPATIBILITY_TELEGRAM)
 
     execute {
-        // Central noforwards check — allows copy/save/screenshot
         IsChatNoForwardsLongFingerprint.method.addInstructions(0, """
             const/4 v0, 0x0
             return v0
@@ -50,7 +74,11 @@ val bypassContentRestrictionPatch = bytecodePatch(
             return v0
         """)
 
-        // Peer noforwards — allows copy/save in chat and profile
+        MessagesControllerIsPeerNoForwardsFingerprint.method.addInstructions(0, """
+            const/4 v0, 0x0
+            return v0
+        """)
+
         ChatActivityIsPeerNoForwardsFingerprint.method.addInstructions(0, """
             const/4 v0, 0x0
             return v0
@@ -60,5 +88,49 @@ val bypassContentRestrictionPatch = bytecodePatch(
             const/4 v0, 0x0
             return v0
         """)
+
+        CanForwardMessageFingerprint.method.addInstructions(0, """
+            const/4 v0, 0x1
+            return v0
+        """)
+
+        HasSelectedNoforwardsMessageFingerprint.method.addInstructions(0, """
+            const/4 v0, 0x0
+            return v0
+        """)
+
+        // Patch ALL methods that read message.noforwards field — replace with const/4 0
+        val noforwardsFilter = fieldAccess(
+            opcode = Opcode.IGET_BOOLEAN,
+            definingClass = "Lorg/telegram/tgnet/TLRPC\$Message;",
+            name = "noforwards",
+            type = "Z",
+        )
+        Fingerprint(filters = listOf(noforwardsFilter)).matchAllOrNull()?.forEach { match ->
+            match.method.apply {
+                val indices = match.instructionMatches.map { it.index }
+                for (index in indices.reversed()) {
+                    val reg = getInstruction<TwoRegisterInstruction>(index).registerA
+                    replaceInstruction(index, "const/4 v$reg, 0x0")
+                }
+            }
+        }
+
+        // Also patch Chat.noforwards field reads
+        val chatNoforwardsFilter = fieldAccess(
+            opcode = Opcode.IGET_BOOLEAN,
+            definingClass = "Lorg/telegram/tgnet/TLRPC\$Chat;",
+            name = "noforwards",
+            type = "Z",
+        )
+        Fingerprint(filters = listOf(chatNoforwardsFilter)).matchAllOrNull()?.forEach { match ->
+            match.method.apply {
+                val indices = match.instructionMatches.map { it.index }
+                for (index in indices.reversed()) {
+                    val reg = getInstruction<TwoRegisterInstruction>(index).registerA
+                    replaceInstruction(index, "const/4 v$reg, 0x0")
+                }
+            }
+        }
     }
 }

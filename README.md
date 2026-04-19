@@ -51,13 +51,19 @@ Custom [Morphe](https://morphe.software) patches for unlocking premium features 
 > `org.telegram.messenger.web` · v12.6.4 · [APKMirror (APK)](https://www.apkmirror.com/apk/telegram-fz-llc/telegram-web-version/telegram-web-version-12-6-4-release/)
 - Unlock premium features (client-side only)
 - Bypass integrity check for login
-- Copy, save, screenshot from restricted channels
+- Open copyrighted, sensitive, and disabled channels
+- Copy, save, forward, screenshot from restricted channels
 - Remove sponsored messages
 - Disable auto update
 - Hide typing indicator (optional)
 - Download speed boost (optional)
 
-> **📝 Note:** Premium is client-side UI only — server-validated features (upload size, etc.) won't work. Forwarding from restricted channels is server-side enforced and cannot be bypassed.
+> **📝 Note:** Premium is client-side UI only — server-validated features (upload size, etc.) won't work.
+
+### CREX - Just Cricket
+> `in.cricketexchange.app.cricketexchange` · v26.04.05 · [APKMirror (APKM)](https://www.apkmirror.com/apk/cricket-exchange/cricket-exchange-live-score-analysis/crex-just-cricket-26-04-05-release/crex-just-cricket-26-04-05-android-apk-download/)
+- Unlock premium features
+- Remove ads
 
 ### Mark - Auto Screenshot Deleter
 > `com.markOne.ss_app` · v6.6 · [APKPure (XAPK)](https://apkpure.com/mark-auto-screenshot-deleter/com.markOne.ss_app/download)
