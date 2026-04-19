@@ -1,6 +1,18 @@
 {
-  "version": "1.7.0",
+  "version": "1.8.0",
   "patches": [
+    {
+      "name": "CREX Premium",
+      "description": "Unlocks premium features and removes ads.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "in.cricketexchange.app.cricketexchange": [
+          "26.04.05"
+        ]
+      },
+      "options": []
+    },
     {
       "name": "Doc Scanner Premium",
       "description": "Unlocks all premium features, removes ads, and enables pro themes.",
@@ -45,6 +57,18 @@
       "compatiblePackages": {
         "com.truecaller": [
           "26.10.6"
+        ]
+      },
+      "options": []
+    },
+    {
+      "name": "Mark Premium",
+      "description": "Unlocks premium features and removes ads.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "com.markOne.ss_app": [
+          "6.6"
         ]
       },
       "options": []

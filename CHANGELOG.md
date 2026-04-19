@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.7.0...v1.8.0) (2026-04-19)
+
+
+### Features
+
+* add CREX and Mark premium patches ([6fd6afc](https://github.com/Paresh-Maheshwari/paresh-patches/commit/6fd6afc36f2ad8e5e943e092c3ec5510a6f9a1d8))
+
 # [1.7.0](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.6.0...v1.7.0) (2026-04-15)
 
 
