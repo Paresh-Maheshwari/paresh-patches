@@ -52,6 +52,17 @@ Custom [Morphe](https://morphe.software) patches for unlocking premium features 
 
 > **🧪 Pre-release:** This patch is available on the `dev` branch only. Enable "Use pre-release patches" in Morphe Manager to use it.
 
+### Mark - Auto Screenshot Deleter
+> `com.markOne.ss_app` · v6.6 · [APKPure (XAPK)](https://apkpure.com/mark-auto-screenshot-deleter/com.markOne.ss_app/download)
+- Unlock premium features
+- Remove ads
+- Bypass Play Store license check
+
+### CREX - Just Cricket
+> `in.cricketexchange.app.cricketexchange` · v26.04.05 · [APKMirror (APKM)](https://www.apkmirror.com/apk/cricket-exchange/cricket-exchange-live-score-analysis/crex-just-cricket-26-04-05-release/crex-just-cricket-26-04-05-android-apk-download/)
+- Unlock premium features
+- Remove ads
+
 ## Usage
 
 [![Add to Morphe Manager](https://img.shields.io/badge/Add%20to-Morphe%20Manager-blue?style=for-the-badge)](https://morphe.software/add-source?github=Paresh-Maheshwari/paresh-patches)
