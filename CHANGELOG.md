@@ -1,3 +1,10 @@
+# [1.4.0-dev.32](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.31...v1.4.0-dev.32) (2026-04-19)
+
+
+### Features
+
+* add CREX premium patch and Telegram channel bypass ([f728c41](https://github.com/Paresh-Maheshwari/paresh-patches/commit/f728c4117f0f88058e7e9717821b1fe555151c2e))
+
 # [1.4.0-dev.31](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.30...v1.4.0-dev.31) (2026-04-17)
 
 

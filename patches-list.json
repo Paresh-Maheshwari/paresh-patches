@@ -1,9 +1,21 @@
 {
-  "version": "1.4.0-dev.31",
+  "version": "1.4.0-dev.32",
   "patches": [
     {
+      "name": "Bypass channel restrictions",
+      "description": "Allows opening copyrighted, sensitive, and temporarily disabled channels.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "org.telegram.messenger.web": [
+          "12.6.4"
+        ]
+      },
+      "options": []
+    },
+    {
       "name": "Bypass content restrictions",
-      "description": "Allows copying, saving, and screenshots from restricted channels.",
+      "description": "Allows copying, saving, forwarding, and screenshots from restricted channels.",
       "use": true,
       "dependencies": [],
       "compatiblePackages": {
@@ -21,6 +33,18 @@
       "compatiblePackages": {
         "org.telegram.messenger.web": [
           "12.6.4"
+        ]
+      },
+      "options": []
+    },
+    {
+      "name": "CREX Premium",
+      "description": "Unlocks premium features and removes ads.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "in.cricketexchange.app.cricketexchange": [
+          "26.04.05"
         ]
       },
       "options": []
