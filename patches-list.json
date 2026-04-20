@@ -1,5 +1,5 @@
 {
-  "version": "1.4.0-dev.34",
+  "version": "1.4.0-dev.35",
   "patches": [
     {
       "name": "Bypass channel restrictions",
@@ -57,6 +57,30 @@
       "compatiblePackages": {
         "org.telegram.messenger.web": [
           "12.6.4"
+        ]
+      },
+      "options": []
+    },
+    {
+      "name": "Disable telemetry",
+      "description": "Disables AppStartTracker and other telemetry points.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "com.truecaller": [
+          "26.10.6"
+        ]
+      },
+      "options": []
+    },
+    {
+      "name": "Disable update check",
+      "description": "Disables the in-app update check.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "com.truecaller": [
+          "26.10.6"
         ]
       },
       "options": []
@@ -123,7 +147,7 @@
     },
     {
       "name": "Hide Premium from settings",
-      "description": "Hides the Premium options from the settings page.",
+      "description": "Hides the Premium options from the settings and user details pages.",
       "use": true,
       "dependencies": [],
       "compatiblePackages": {

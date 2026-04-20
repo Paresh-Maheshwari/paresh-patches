@@ -1,3 +1,10 @@
+# [1.4.0-dev.35](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.34...v1.4.0-dev.35) (2026-04-20)
+
+
+### Features
+
+* hide premium from user details, disable update check & telemetry for Truecaller ([c51fffa](https://github.com/Paresh-Maheshwari/paresh-patches/commit/c51fffa0bc67baf36b31e5df1c55c04f632ec2a3))
+
 # [1.4.0-dev.34](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.33...v1.4.0-dev.34) (2026-04-20)
 
 
