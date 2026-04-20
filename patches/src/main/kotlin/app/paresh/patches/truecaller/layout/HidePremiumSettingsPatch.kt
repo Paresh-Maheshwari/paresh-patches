@@ -1,5 +1,6 @@
 package app.paresh.patches.truecaller.layout
 
+import app.morphe.patcher.extensions.InstructionExtensions.addInstructions
 import app.morphe.patcher.extensions.InstructionExtensions.replaceInstruction
 import app.morphe.patcher.patch.bytecodePatch
 import app.paresh.patches.truecaller.shared.Constants.COMPATIBILITY_TRUECALLER
@@ -10,16 +11,15 @@ import com.android.tools.smali.dexlib2.iface.instruction.ReferenceInstruction
 @Suppress("unused")
 val hidePremiumSettingsPatch = bytecodePatch(
     name = "Hide Premium from settings",
-    description = "Hides the Premium options from the settings page."
+    description = "Hides the Premium options from the settings and user details pages."
 ) {
     compatibleWith(COMPATIBILITY_TRUECALLER)
 
     execute {
+        // Hide premium item from settings categories page
         SettingsPremiumVisibilityFingerprint.method.apply {
-            // Replace all iget-boolean vX, pY, Lfh2/m0;->a:Z with const/4 vX, 0x0
-            // This forces isPremiumItemVisible = false everywhere in the emit method
             val instructions = implementation!!.instructions.toList()
-            val indicesToPatch = mutableListOf<Pair<Int, Int>>() // index, destRegister
+            val indicesToPatch = mutableListOf<Pair<Int, Int>>()
 
             for (i in instructions.indices) {
                 val inst = instructions[i]
@@ -32,10 +32,12 @@ val hidePremiumSettingsPatch = bytecodePatch(
                 }
             }
 
-            // Patch in reverse order to preserve indices
             for ((index, reg) in indicesToPatch.reversed()) {
                 replaceInstruction(index, "const/4 v$reg, 0x0")
             }
         }
+
+        // Hide "Premium member" block from user details/settings page (Compose UI)
+        PremiumBlockComposeFingerprint.method.addInstructions(0, "return-void")
     }
 }

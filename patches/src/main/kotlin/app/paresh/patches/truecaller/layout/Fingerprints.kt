@@ -41,3 +41,18 @@ object SettingsPremiumVisibilityFingerprint : Fingerprint(
         fieldAccess(opcode = com.android.tools.smali.dexlib2.Opcode.IGET_BOOLEAN, definingClass = "Lfh2/m0;", name = "a", type = "Z")
     )
 )
+
+// Targets zo2/baz.a() — Compose function that renders "Premium member" block on UsersHome settings
+object PremiumBlockComposeFingerprint : Fingerprint(
+    returnType = "V",
+    parameters = listOf(
+        "Lcom/truecaller/usershome/presentaion/ui/components/featureditemsection/baz;",
+        "Lkotlin/jvm/functions/Function0;",
+        "Landroidx/compose/ui/b;",
+        "Ll2/k;",
+        "I"
+    ),
+    filters = listOf(
+        string("premium_block")
+    )
+)
