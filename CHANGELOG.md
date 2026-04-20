@@ -1,3 +1,10 @@
+# [1.10.0](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.9.0...v1.10.0) (2026-04-20)
+
+
+### Features
+
+* move patch requests to Discussions, add bug report and enhancement issue templates ([bc5915e](https://github.com/Paresh-Maheshwari/paresh-patches/commit/bc5915e8e16c571dccf4b683e32b49c3ee568eb8))
+
 # [1.9.0](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.8.0...v1.9.0) (2026-04-19)
 
 
