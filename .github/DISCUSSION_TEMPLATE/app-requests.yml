@@ -1,19 +1,18 @@
-name: Patch Request
-description: Request a new app patch
-title: "[Patch Request] "
-labels: ["patch-request"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for submitting a patch request! Please fill in all the details below.
+        ## Patch Request
+        **Set the title above to the App Name** (e.g., "VN - AI Video Editor")
+        
+        Please check existing discussions first — if already requested, upvote it instead!
 
   - type: input
     id: app_name
     attributes:
       label: App Name
       description: Full name of the app as shown on Play Store
-      placeholder: e.g., VN - AI Video Editor
+      placeholder: e.g., Spotify, Nova Launcher, Tasker
     validations:
       required: true
 
@@ -22,7 +21,7 @@ body:
     attributes:
       label: Package Name
       description: "Android package name (find it on Play Store URL or APKPure)"
-      placeholder: e.g., com.frontrow.vlog
+      placeholder: e.g., com.spotify.music, com.teslacoilsw.launcher
     validations:
       required: true
 
@@ -31,7 +30,7 @@ body:
     attributes:
       label: App Version
       description: Version you want patched
-      placeholder: e.g., 2.12.0
+      placeholder: e.g., 8.9.42, 2.12.0
     validations:
       required: true
 
@@ -40,7 +39,7 @@ body:
     attributes:
       label: APK Download Link
       description: Link to download the APK/XAPK/APKM (APKPure, APKMirror, etc.)
-      placeholder: https://apkpure.net/...
+      placeholder: e.g., https://apkpure.net/spotify/com.spotify.music/download
     validations:
       required: true
 
@@ -50,10 +49,10 @@ body:
       label: Premium Features to Unlock
       description: List the specific premium features you want unlocked
       placeholder: |
-        - Remove watermark
-        - Remove ads
-        - Unlock pro filters
-        - Unlock premium templates
+        - Unlock premium/pro subscription
+        - Remove all ads (banner, interstitial, video)
+        - Remove watermark on exports
+        - Unlock pro themes/filters/templates
     validations:
       required: true
 
@@ -85,7 +84,7 @@ body:
     attributes:
       label: Checklist
       options:
-        - label: I have searched existing issues and this app hasn't been requested before
+        - label: I have searched existing discussions and this app hasn't been requested before
           required: true
         - label: I understand that server-side features (AI, cloud sync) cannot be patched
           required: true

@@ -1,0 +1,72 @@
+name: Bug Report
+description: Report a patch that isn't working correctly
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: input
+    id: app_name
+    attributes:
+      label: App Name
+      placeholder: e.g., Truecaller, MacroDroid, Fing
+    validations:
+      required: true
+
+  - type: input
+    id: app_version
+    attributes:
+      label: App Version
+      placeholder: e.g., 26.10.6
+    validations:
+      required: true
+
+  - type: input
+    id: patch_version
+    attributes:
+      label: Patch Version
+      description: "Find in Settings > Morphe > About"
+      placeholder: e.g., 1.2.0
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What's broken?
+      description: Describe what's not working
+      placeholder: |
+        e.g., Premium features show as unlocked but app crashes when opening settings
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      placeholder: |
+        1. Install patched APK
+        2. Open app
+        3. Go to settings
+        4. App crashes
+    validations:
+      required: true
+
+  - type: dropdown
+    id: device_arch
+    attributes:
+      label: Device Architecture
+      options:
+        - arm64-v8a
+        - armeabi-v7a
+        - x86_64
+        - Not sure
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Crash Logs (if available)
+      description: "Run: adb logcat | grep 'morphe\\|AndroidRuntime'"
+      render: shell
+    validations:
+      required: false
