@@ -1,3 +1,10 @@
+# [1.4.0-dev.34](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.33...v1.4.0-dev.34) (2026-04-20)
+
+
+### Features
+
+* move patch requests to Discussions, add bug report and enhancement issue templates ([a13afae](https://github.com/Paresh-Maheshwari/paresh-patches/commit/a13afaeda2f8ad42c7723d92a1292175ecba883d))
+
 # [1.4.0-dev.33](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.32...v1.4.0-dev.33) (2026-04-19)
 
 
