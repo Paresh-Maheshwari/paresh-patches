@@ -1,9 +1,11 @@
 # Paresh Morphe Patches
 
 > [!NOTE]
-> Patch requests are now handled in [**Discussions**](https://github.com/Paresh-Maheshwari/paresh-patches/discussions/categories/app-requests). Please check existing requests and upvote ⬆️ before creating a new one!
+> 🚀 **All patch requests, feature updates, and announcements are now in [Discussions](https://github.com/Paresh-Maheshwari/paresh-patches/discussions).** Subscribe to stay updated!
 >
-> **Issues** are only for bug reports and enhancements to existing patches.
+> - **New app request** → [App Requests](https://github.com/Paresh-Maheshwari/paresh-patches/discussions/new?category=app-requests) (upvote existing ones!)
+> - **Bug reports & enhancements** → [Issues](https://github.com/Paresh-Maheshwari/paresh-patches/issues/new/choose)
+> - **Updates & announcements** → [Announcements](https://github.com/Paresh-Maheshwari/paresh-patches/discussions/categories/announcements) (subscribe for notifications)
 
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/Paresh-Maheshwari/paresh-patches/release.yml?branch=main)
 ![GitHub release](https://img.shields.io/github/v/release/Paresh-Maheshwari/paresh-patches?include_prereleases)
