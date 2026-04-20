@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 🚀 Request a New App Patch
+    url: https://github.com/Paresh-Maheshwari/paresh-patches/discussions/new?category=app-requests
+    about: Request a new app to be patched. Use Discussions so others can upvote!

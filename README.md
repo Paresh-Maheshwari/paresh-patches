@@ -1,5 +1,10 @@
 # Paresh Morphe Patches
 
+> [!NOTE]
+> Patch requests are now handled in [**Discussions**](https://github.com/Paresh-Maheshwari/paresh-patches/discussions/categories/app-requests). Please check existing requests and upvote ⬆️ before creating a new one!
+>
+> **Issues** are only for bug reports and enhancements to existing patches.
+
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/Paresh-Maheshwari/paresh-patches/release.yml?branch=main)
 ![GitHub release](https://img.shields.io/github/v/release/Paresh-Maheshwari/paresh-patches?include_prereleases)
 ![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)
@@ -88,9 +93,13 @@ Custom [Morphe](https://morphe.software) patches for unlocking premium features 
 
 ## Request a Patch
 
-Want a new app patched? [Open a patch request](https://github.com/Paresh-Maheshwari/paresh-patches/issues/new?template=patch-request.yml).
+Want a new app patched? [Open a patch request](https://github.com/Paresh-Maheshwari/paresh-patches/discussions/new?category=app-requests).
 
 > **Note:** Not all apps can be patched. Server-side features (AI, cloud sync, server-validated subscriptions) cannot be bypassed.
+
+## Report a Bug
+
+Found an issue with an existing patch? [Open a bug report](https://github.com/Paresh-Maheshwari/paresh-patches/issues/new?template=bug-report.yml).
 
 ## FAQ
 

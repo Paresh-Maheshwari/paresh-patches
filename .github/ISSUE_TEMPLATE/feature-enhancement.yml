@@ -1,0 +1,29 @@
+name: Feature Enhancement
+description: Request an improvement to an existing patch
+title: "[Enhancement] "
+labels: ["enhancement"]
+body:
+  - type: input
+    id: app_name
+    attributes:
+      label: App Name
+      placeholder: e.g., Truecaller, MacroDroid, Fing
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What do you want improved?
+      placeholder: |
+        e.g., Also hide the "Upgrade" button in settings, or add option to disable specific ads only
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context
+      description: Screenshots, links, or any other info
+    validations:
+      required: false
