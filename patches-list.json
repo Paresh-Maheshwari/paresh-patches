@@ -1,5 +1,5 @@
 {
-  "version": "1.10.0",
+  "version": "1.11.0",
   "patches": [
     {
       "name": "CREX Premium",
@@ -94,6 +94,18 @@
         "com.solid.teleprompter": [
           "6.8.2",
           "6.8.1"
+        ]
+      },
+      "options": []
+    },
+    {
+      "name": "TickTick Premium",
+      "description": "Unlocks premium features, removes limits, and enables AI tools.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "com.ticktick.task": [
+          "8.0.6.1"
         ]
       },
       "options": []
