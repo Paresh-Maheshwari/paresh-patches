@@ -1,5 +1,5 @@
 {
-  "version": "1.4.0-dev.35",
+  "version": "1.4.0-dev.36",
   "patches": [
     {
       "name": "Bypass channel restrictions",
@@ -250,6 +250,18 @@
         "com.solid.teleprompter": [
           "6.8.2",
           "6.8.1"
+        ]
+      },
+      "options": []
+    },
+    {
+      "name": "TickTick Premium",
+      "description": "Unlocks premium features, removes limits, and enables AI tools.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "com.ticktick.task": [
+          "8.0.6.1"
         ]
       },
       "options": []

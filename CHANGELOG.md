@@ -1,3 +1,10 @@
+# [1.4.0-dev.36](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.35...v1.4.0-dev.36) (2026-04-21)
+
+
+### Features
+
+* add TickTick premium patch ([e141443](https://github.com/Paresh-Maheshwari/paresh-patches/commit/e14144365d04dd8075c95194a0a3951e7f621d19))
+
 # [1.4.0-dev.35](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.34...v1.4.0-dev.35) (2026-04-20)
 
 
