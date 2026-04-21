@@ -78,6 +78,15 @@ Custom [Morphe](https://morphe.software) patches for unlocking premium features 
 - Unlock premium features
 - Remove ads
 
+### TickTick - To Do List & Planner
+> `com.ticktick.task` · v8.0.6.1 · [APKMirror (APKM)](https://www.apkmirror.com/apk/ticktick-limited/ticktick-to-do-list-with-reminder-day-planner/ticktickto-do-list-calendar-8-0-6-1-release/)
+- Unlock premium features
+- Remove all free-tier limits (tasks, projects, reminders, habits, etc.)
+- Enable AI voice/recording tools
+- Pro-tier limits applied everywhere
+
+> **📝 Note:** The "Upgrade to Premium" button on the profile page is cosmetic (server-rendered WebView). All premium features work regardless.
+
 ### Mark - Auto Screenshot Deleter
 > `com.markOne.ss_app` · v6.6 · [APKPure (XAPK)](https://apkpure.com/mark-auto-screenshot-deleter/com.markOne.ss_app/download)
 - Unlock premium features
