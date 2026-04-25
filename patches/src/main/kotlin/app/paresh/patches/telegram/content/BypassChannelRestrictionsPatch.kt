@@ -2,10 +2,15 @@ package app.paresh.patches.telegram.content
 
 import app.morphe.patcher.Fingerprint
 import app.morphe.patcher.extensions.InstructionExtensions.addInstructions
+import app.morphe.patcher.extensions.InstructionExtensions.getInstruction
+import app.morphe.patcher.extensions.InstructionExtensions.replaceInstruction
+import app.morphe.patcher.fieldAccess
 import app.morphe.patcher.methodCall
 import app.morphe.patcher.patch.bytecodePatch
 import app.paresh.patches.telegram.shared.Constants.COMPATIBILITY_TELEGRAM
 import com.android.tools.smali.dexlib2.AccessFlags
+import com.android.tools.smali.dexlib2.Opcode
+import com.android.tools.smali.dexlib2.iface.instruction.TwoRegisterInstruction
 
 // Returns restriction text for copyrighted/porn/disabled channels
 object GetRestrictionReasonFingerprint : Fingerprint(
@@ -121,6 +126,39 @@ object SetContentSettingsFingerprint : Fingerprint(
     parameters = listOf("Z"),
 )
 
+// checkCanOpenChat — 2-param overload delegates to 3-param
+object CheckCanOpenChat2Fingerprint : Fingerprint(
+    definingClass = "Lorg/telegram/messenger/MessagesController;",
+    name = "checkCanOpenChat",
+    returnType = "Z",
+    parameters = listOf("Landroid/os/Bundle;", "Lorg/telegram/ui/ActionBar/BaseFragment;"),
+)
+
+// checkCanOpenChat — 3-param overload delegates to 4-param
+object CheckCanOpenChat3Fingerprint : Fingerprint(
+    definingClass = "Lorg/telegram/messenger/MessagesController;",
+    name = "checkCanOpenChat",
+    returnType = "Z",
+    parameters = listOf(
+        "Landroid/os/Bundle;",
+        "Lorg/telegram/ui/ActionBar/BaseFragment;",
+        "Lorg/telegram/messenger/MessageObject;",
+    ),
+)
+
+// checkCanOpenChat — 4-param full implementation
+object CheckCanOpenChat4Fingerprint : Fingerprint(
+    definingClass = "Lorg/telegram/messenger/MessagesController;",
+    name = "checkCanOpenChat",
+    returnType = "Z",
+    parameters = listOf(
+        "Landroid/os/Bundle;",
+        "Lorg/telegram/ui/ActionBar/BaseFragment;",
+        "Lorg/telegram/messenger/MessageObject;",
+        "Lorg/telegram/messenger/browser/Browser\$Progress;",
+    ),
+)
+
 @Suppress("unused")
 val bypassChannelRestrictionsPatch = bytecodePatch(
     name = "Bypass channel restrictions",
@@ -189,5 +227,37 @@ val bypassChannelRestrictionsPatch = bytecodePatch(
 
         // getChannelDifference error → return void
         GetChannelDiffErrorFingerprint.methodOrNull?.addInstructions(0, "return-void")
+
+        // Allow opening any chat regardless of restrictions
+        CheckCanOpenChat2Fingerprint.method.addInstructions(0, """
+            const/4 v0, 0x1
+            return v0
+        """)
+        CheckCanOpenChat3Fingerprint.method.addInstructions(0, """
+            const/4 v0, 0x1
+            return v0
+        """)
+        CheckCanOpenChat4Fingerprint.method.addInstructions(0, """
+            const/4 v0, 0x1
+            return v0
+        """)
+
+        // Neutralize isRestrictedMessage — prevents messages from banned channels
+        // being forced to plain text type, allowing real content to display
+        val isRestrictedFilter = fieldAccess(
+            opcode = Opcode.IGET_BOOLEAN,
+            definingClass = "Lorg/telegram/messenger/MessageObject;",
+            name = "isRestrictedMessage",
+            type = "Z",
+        )
+        Fingerprint(filters = listOf(isRestrictedFilter)).matchAllOrNull()?.forEach { match ->
+            match.method.apply {
+                val indices = match.instructionMatches.map { it.index }
+                for (index in indices.reversed()) {
+                    val reg = getInstruction<TwoRegisterInstruction>(index).registerA
+                    replaceInstruction(index, "const/4 v$reg, 0x0")
+                }
+            }
+        }
     }
 }

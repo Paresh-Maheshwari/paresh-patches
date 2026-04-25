@@ -132,5 +132,31 @@ val bypassContentRestrictionPatch = bytecodePatch(
                 }
             }
         }
+
+        // Patch serialization of noforwards in send/forward request classes.
+        // These have their own noforwards field (not inherited from Message/Chat),
+        // so the above matchAll doesn't catch them.
+        listOf(
+            "Lorg/telegram/tgnet/TLRPC\$TL_messages_forwardMessages;",
+            "Lorg/telegram/tgnet/TLRPC\$TL_messages_sendMessage;",
+            "Lorg/telegram/tgnet/TLRPC\$TL_messages_sendMedia;",
+            "Lorg/telegram/tgnet/TLRPC\$TL_messages_sendMultiMedia;",
+        ).forEach { definingClass ->
+            val filter = fieldAccess(
+                opcode = Opcode.IGET_BOOLEAN,
+                definingClass = definingClass,
+                name = "noforwards",
+                type = "Z",
+            )
+            Fingerprint(filters = listOf(filter)).matchAllOrNull()?.forEach { match ->
+                match.method.apply {
+                    val indices = match.instructionMatches.map { it.index }
+                    for (index in indices.reversed()) {
+                        val reg = getInstruction<TwoRegisterInstruction>(index).registerA
+                        replaceInstruction(index, "const/4 v$reg, 0x0")
+                    }
+                }
+            }
+        }
     }
 }
