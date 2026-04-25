@@ -1,3 +1,10 @@
+# [1.4.0-dev.37](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.36...v1.4.0-dev.37) (2026-04-25)
+
+
+### Features
+
+* add anti-delete, anti-disappearing media and improve restriction bypass for Telegram ([a119f86](https://github.com/Paresh-Maheshwari/paresh-patches/commit/a119f861ce7312f7ad2dcd03ef52e897fa7de290))
+
 # [1.4.0-dev.36](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.35...v1.4.0-dev.36) (2026-04-21)
 
 

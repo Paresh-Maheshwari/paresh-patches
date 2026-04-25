@@ -1,6 +1,30 @@
 {
-  "version": "1.4.0-dev.36",
+  "version": "1.4.0-dev.37",
   "patches": [
+    {
+      "name": "Anti-delete messages",
+      "description": "Prevents deleted messages from being removed locally.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "org.telegram.messenger.web": [
+          "12.6.4"
+        ]
+      },
+      "options": []
+    },
+    {
+      "name": "Anti-disappearing media",
+      "description": "Keeps view-once and self-destructing media viewable forever.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "org.telegram.messenger.web": [
+          "12.6.4"
+        ]
+      },
+      "options": []
+    },
     {
       "name": "Bypass channel restrictions",
       "description": "Allows opening copyrighted, sensitive, and temporarily disabled channels.",
