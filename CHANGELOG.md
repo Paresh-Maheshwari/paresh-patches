@@ -1,3 +1,15 @@
+# [1.4.0-dev.38](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.37...v1.4.0-dev.38) (2026-04-26)
+
+
+### Bug Fixes
+
+* anti-delete only blocks incoming deletes, allows self-delete in groups ([025dbf9](https://github.com/Paresh-Maheshwari/paresh-patches/commit/025dbf98b4afda7ebe96ba36567a0a7bbaaaf5da))
+
+
+### Features
+
+* add JioHotstar patches ([5e8d9be](https://github.com/Paresh-Maheshwari/paresh-patches/commit/5e8d9be5c2ec861dd7f05e1aca1fc3c0352c74a3))
+
 # [1.4.0-dev.37](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.36...v1.4.0-dev.37) (2026-04-25)
 
 

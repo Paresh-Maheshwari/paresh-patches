@@ -1,5 +1,5 @@
 {
-  "version": "1.4.0-dev.37",
+  "version": "1.4.0-dev.38",
   "patches": [
     {
       "name": "Anti-delete messages",
@@ -57,6 +57,18 @@
       "compatiblePackages": {
         "org.telegram.messenger.web": [
           "12.6.4"
+        ]
+      },
+      "options": []
+    },
+    {
+      "name": "Bypass signature check",
+      "description": "Bypasses app signature verification to allow API access.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "in.startv.hotstar": [
+          "26.04.13.3"
         ]
       },
       "options": []
@@ -129,6 +141,30 @@
       "compatiblePackages": {
         "org.telegram.messenger.web": [
           "12.6.4"
+        ]
+      },
+      "options": []
+    },
+    {
+      "name": "Enable screen mirroring",
+      "description": "Allows playback while screen mirroring or HDMI is connected.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "in.startv.hotstar": [
+          "26.04.13.3"
+        ]
+      },
+      "options": []
+    },
+    {
+      "name": "Enable screenshots",
+      "description": "Removes screenshot and screen recording restrictions.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "in.startv.hotstar": [
+          "26.04.13.3"
         ]
       },
       "options": []
@@ -237,6 +273,30 @@
       "compatiblePackages": {
         "com.markOne.ss_app": [
           "6.6"
+        ]
+      },
+      "options": []
+    },
+    {
+      "name": "Premium unlock",
+      "description": "Unlocks premium UI features, removes subscription nudges, and enables downloads.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "in.startv.hotstar": [
+          "26.04.13.3"
+        ]
+      },
+      "options": []
+    },
+    {
+      "name": "Remove ads",
+      "description": "Removes pre-roll and mid-roll video ads.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "in.startv.hotstar": [
+          "26.04.13.3"
         ]
       },
       "options": []
