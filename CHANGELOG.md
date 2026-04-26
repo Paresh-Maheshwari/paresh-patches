@@ -1,3 +1,10 @@
+# [1.4.0-dev.39](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.38...v1.4.0-dev.39) (2026-04-26)
+
+
+### Bug Fixes
+
+* anti-delete works for both DMs and groups ([405a7d0](https://github.com/Paresh-Maheshwari/paresh-patches/commit/405a7d0c916012bbbc64638c2e64b29e06a76cbe))
+
 # [1.4.0-dev.38](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.37...v1.4.0-dev.38) (2026-04-26)
 
 
