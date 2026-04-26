@@ -6,7 +6,25 @@ import app.morphe.patcher.patch.bytecodePatch
 import app.paresh.patches.telegram.shared.Constants.COMPATIBILITY_TELEGRAM
 import com.android.tools.smali.dexlib2.AccessFlags
 
-// Block server-push deletion (incoming deletes from other users)
+// Block database deletion — 4-param overload (JIZZ)
+// p4 = async: true=user-initiated, false=server-side
+object MarkMessagesAsDeletedFingerprint1 : Fingerprint(
+    definingClass = "Lorg/telegram/messenger/MessagesStorage;",
+    name = "markMessagesAsDeleted",
+    returnType = "Ljava/util/ArrayList;",
+    parameters = listOf("J", "I", "Z", "Z"),
+)
+
+// Block database deletion — 6-param overload (JArrayListZZII)
+// p4 = async: true=user-initiated, false=server-side
+object MarkMessagesAsDeletedFingerprint2 : Fingerprint(
+    definingClass = "Lorg/telegram/messenger/MessagesStorage;",
+    name = "markMessagesAsDeleted",
+    returnType = "Ljava/util/ArrayList;",
+    parameters = listOf("J", "Ljava/util/ArrayList;", "Z", "Z", "I", "I"),
+)
+
+// Block server-push deletion entirely
 object DeleteMessagesByPushFingerprint : Fingerprint(
     definingClass = "Lorg/telegram/messenger/MessagesController;",
     name = "deleteMessagesByPush",
@@ -23,8 +41,25 @@ val antiDeleteMessagesPatch = bytecodePatch(
     compatibleWith(COMPATIBILITY_TELEGRAM)
 
     execute {
-        // Only block server-push deletion path (incoming deletes)
-        // User-initiated deletes go through deleteMessages() which is not patched
+        // 4-param overload: if p4 (async) is false → server delete → return null
+        MarkMessagesAsDeletedFingerprint1.method.addInstructions(0, """
+            if-nez p4, :allow
+            const/4 v0, 0x0
+            return-object v0
+            :allow
+            nop
+        """)
+
+        // 6-param overload: if p4 (async) is false → server delete → return null
+        MarkMessagesAsDeletedFingerprint2.method.addInstructions(0, """
+            if-nez p4, :allow
+            const/4 v0, 0x0
+            return-object v0
+            :allow
+            nop
+        """)
+
+        // Block server-push deletion path entirely
         DeleteMessagesByPushFingerprint.method.addInstructions(0, "return-void")
     }
 }
