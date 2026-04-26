@@ -1,6 +1,66 @@
 {
-  "version": "1.11.0",
+  "version": "1.12.0",
   "patches": [
+    {
+      "name": "Anti-delete messages",
+      "description": "Prevents deleted messages from being removed locally.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "org.telegram.messenger.web": [
+          "12.6.4"
+        ]
+      },
+      "options": []
+    },
+    {
+      "name": "Anti-disappearing media",
+      "description": "Keeps view-once and self-destructing media viewable forever.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "org.telegram.messenger.web": [
+          "12.6.4"
+        ]
+      },
+      "options": []
+    },
+    {
+      "name": "Bypass channel restrictions",
+      "description": "Allows opening copyrighted, sensitive, and temporarily disabled channels.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "org.telegram.messenger.web": [
+          "12.6.4"
+        ]
+      },
+      "options": []
+    },
+    {
+      "name": "Bypass content restrictions",
+      "description": "Allows copying, saving, forwarding, and screenshots from restricted channels.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "org.telegram.messenger.web": [
+          "12.6.4"
+        ]
+      },
+      "options": []
+    },
+    {
+      "name": "Bypass integrity",
+      "description": "Bypasses integrity check to allow login on patched app.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "org.telegram.messenger.web": [
+          "12.6.4"
+        ]
+      },
+      "options": []
+    },
     {
       "name": "CREX Premium",
       "description": "Unlocks premium features and removes ads.",
@@ -14,6 +74,18 @@
       "options": []
     },
     {
+      "name": "Disable auto update",
+      "description": "Disables automatic app update checks.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "org.telegram.messenger.web": [
+          "12.6.4"
+        ]
+      },
+      "options": []
+    },
+    {
       "name": "Doc Scanner Premium",
       "description": "Unlocks all premium features, removes ads, and enables pro themes.",
       "use": true,
@@ -21,6 +93,18 @@
       "compatiblePackages": {
         "com.cv.docscanner": [
           "6.8.18"
+        ]
+      },
+      "options": []
+    },
+    {
+      "name": "Download speed boost",
+      "description": "Increases download chunk size and max concurrent requests.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "org.telegram.messenger.web": [
+          "12.6.4"
         ]
       },
       "options": []
@@ -74,6 +158,18 @@
       "options": []
     },
     {
+      "name": "Hide typing indicator",
+      "description": "Hides your typing indicator from other users.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "org.telegram.messenger.web": [
+          "12.6.4"
+        ]
+      },
+      "options": []
+    },
+    {
       "name": "Mark Premium",
       "description": "Unlocks premium features and removes ads.",
       "use": true,
@@ -81,6 +177,30 @@
       "compatiblePackages": {
         "com.markOne.ss_app": [
           "6.6"
+        ]
+      },
+      "options": []
+    },
+    {
+      "name": "Remove ads",
+      "description": "Removes sponsored messages and video ads.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "org.telegram.messenger.web": [
+          "12.6.4"
+        ]
+      },
+      "options": []
+    },
+    {
+      "name": "Telegram Premium",
+      "description": "Unlocks premium features.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "org.telegram.messenger.web": [
+          "12.6.4"
         ]
       },
       "options": []

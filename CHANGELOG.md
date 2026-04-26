@@ -1,3 +1,10 @@
+# [1.12.0](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.11.0...v1.12.0) (2026-04-26)
+
+
+### Features
+
+* add Telegram patches - premium, integrity, content bypass, ads, anti-delete, anti-disappearing media ([9bb34fe](https://github.com/Paresh-Maheshwari/paresh-patches/commit/9bb34fe064526eaa8c00b98e268d56302541eb7c))
+
 # [1.11.0](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.10.0...v1.11.0) (2026-04-21)
 
 
