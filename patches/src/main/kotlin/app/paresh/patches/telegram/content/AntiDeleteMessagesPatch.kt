@@ -6,22 +6,7 @@ import app.morphe.patcher.patch.bytecodePatch
 import app.paresh.patches.telegram.shared.Constants.COMPATIBILITY_TELEGRAM
 import com.android.tools.smali.dexlib2.AccessFlags
 
-// Block database deletion (both overloads)
-object MarkMessagesAsDeletedFingerprint1 : Fingerprint(
-    definingClass = "Lorg/telegram/messenger/MessagesStorage;",
-    name = "markMessagesAsDeleted",
-    returnType = "Ljava/util/ArrayList;",
-    parameters = listOf("J", "I", "Z", "Z"),
-)
-
-object MarkMessagesAsDeletedFingerprint2 : Fingerprint(
-    definingClass = "Lorg/telegram/messenger/MessagesStorage;",
-    name = "markMessagesAsDeleted",
-    returnType = "Ljava/util/ArrayList;",
-    parameters = listOf("J", "Ljava/util/ArrayList;", "Z", "Z", "I", "I"),
-)
-
-// Block server-push deletion entirely (prevents both UI removal and DB deletion)
+// Block server-push deletion (incoming deletes from other users)
 object DeleteMessagesByPushFingerprint : Fingerprint(
     definingClass = "Lorg/telegram/messenger/MessagesController;",
     name = "deleteMessagesByPush",
@@ -38,15 +23,8 @@ val antiDeleteMessagesPatch = bytecodePatch(
     compatibleWith(COMPATIBILITY_TELEGRAM)
 
     execute {
-        // Block database deletion
-        listOf(MarkMessagesAsDeletedFingerprint1, MarkMessagesAsDeletedFingerprint2).forEach {
-            it.method.addInstructions(0, """
-                const/4 v0, 0x0
-                return-object v0
-            """)
-        }
-
-        // Block server-push deletion path entirely
+        // Only block server-push deletion path (incoming deletes)
+        // User-initiated deletes go through deleteMessages() which is not patched
         DeleteMessagesByPushFingerprint.method.addInstructions(0, "return-void")
     }
 }
