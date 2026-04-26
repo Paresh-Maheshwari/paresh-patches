@@ -55,17 +55,19 @@ Custom [Morphe](https://morphe.software) patches for unlocking premium features 
 > **📝 Note:** "Who viewed my profile" is server-side and cannot be patched. Gold caller ID badge on incoming calls is per-contact server data.
 
 ### Telegram
-> `org.telegram.messenger.web` · v12.6.4 · [APKMirror (APK)](https://www.apkmirror.com/apk/telegram-fz-llc/telegram-web-version/telegram-web-version-12-6-4-release/)
+> `org.telegram.messenger.web` · v12.6.4 · [APKMirror (APK)](https://www.apkmirror.com/apk/telegram-fz-llc/telegram-web-version/)
 - Unlock premium features (client-side only)
 - Bypass integrity check for login
 - Open copyrighted, sensitive, and disabled channels
 - Copy, save, forward, screenshot from restricted channels
 - Remove sponsored messages
 - Disable auto update
+- Anti-delete messages — deleted messages stay visible locally
+- Anti-disappearing media — view-once media can be viewed multiple times
 - Hide typing indicator (optional)
 - Download speed boost (optional)
 
-> **📝 Note:** Premium is client-side UI only — server-validated features (upload size, etc.) won't work.
+> **📝 Note:** Premium is client-side UI only — server-validated features (upload size, etc.) won't work. Forwarding from private restricted channels is server-side enforced.
 
 ### Eyecon Caller ID & Spam Block
 > `com.eyecon.global` · v4.2026.04.05.1300 · [APKMirror (APKM)](https://www.apkmirror.com/apk/eyecon-phone-dialer-contacts/eyecon-caller-id-spam-block/eyecon-caller-id-spam-block-4-2026-04-05-1300-release/)
