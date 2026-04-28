@@ -93,6 +93,21 @@ Custom [Morphe](https://morphe.software) patches for unlocking premium features 
 - Remove ads
 - Bypass Play Store license check
 
+### Proton VPN
+> `ch.protonvpn.android` · v5.17.72.0 · [APKMirror (APKM)](https://www.apkmirror.com/apk/proton-technologies-ag/protonvpn-secure-and-free-vpn/proton-vpn-fast-secure-vpn-5-17-72-0-release/)
+- **Premium UI** — no upsells, no cooldowns, no upgrade banners
+- NetShield ad/tracker blocking enabled
+- All feature flags enabled
+- Free servers only — Countries tab shows only free servers (10 countries)
+- Connection picks only free servers automatically
+- Premium filter tabs hidden (SecureCore, P2P, Tor)
+- Profile type restricted to Standard only
+- Profile country list shows only free countries
+- Skip upgrade onboarding dialog after login
+- **Disable telemetry** — blocks all telemetry, analytics, and observability data collection
+
+> **📝 Note:** VPN connections are validated server-side. Only free-tier servers (US, NL, JP, RO, PL, CZ, DE, FR, UK, CH) are connectable. Plus/Secure Core/P2P/Tor servers require a paid account. The patch provides a clean premium UI experience on free servers with no ads, no upsells, and no tracking.
+
 ## Usage
 
 [![Add to Morphe Manager](https://img.shields.io/badge/Add%20to-Morphe%20Manager-blue?style=for-the-badge)](https://morphe.software/add-source?github=Paresh-Maheshwari/paresh-patches)
