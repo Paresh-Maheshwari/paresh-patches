@@ -29,5 +29,18 @@ val truecallerPremiumPatch = bytecodePatch(
             const/4 v0, 0x1
             return v0
         """)
+
+        // Block server from overwriting local premium state (prevents Max blocking reset)
+        SavePremiumStateFingerprint.method.addInstructions(0, """
+            sget-object p1, Lkotlin/Unit;->a:Lkotlin/Unit;
+            return-object p1
+        """)
+
+        // Block subscription expired notification worker
+        SubscriptionNotificationWorkerFingerprint.method.addInstructions(0, """
+            new-instance p1, Landroidx/work/qux${'$'}bar${'$'}qux;
+            invoke-direct {p1}, Landroidx/work/qux${'$'}bar${'$'}qux;-><init>()V
+            return-object p1
+        """)
     }
 }

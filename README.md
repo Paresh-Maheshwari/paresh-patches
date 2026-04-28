@@ -51,6 +51,8 @@ Custom [Morphe](https://morphe.software) patches for unlocking premium features 
 - Hide Premium from settings (optional)
 - Hide Scams tab (optional)
 - Hide Assistant tab (optional)
+- Disable telemetry
+- Disable update check
 
 > **📝 Note:** "Who viewed my profile" is server-side and cannot be patched. Gold caller ID badge on incoming calls is per-contact server data.
 
