@@ -1,5 +1,5 @@
 {
-  "version": "1.12.0",
+  "version": "1.13.0",
   "patches": [
     {
       "name": "Anti-delete messages",
@@ -86,6 +86,30 @@
       "options": []
     },
     {
+      "name": "Disable telemetry",
+      "description": "Disables AppStartTracker and other telemetry points.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "com.truecaller": [
+          "26.10.6"
+        ]
+      },
+      "options": []
+    },
+    {
+      "name": "Disable update check",
+      "description": "Disables the in-app update check.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "com.truecaller": [
+          "26.10.6"
+        ]
+      },
+      "options": []
+    },
+    {
       "name": "Doc Scanner Premium",
       "description": "Unlocks all premium features, removes ads, and enables pro themes.",
       "use": true,
@@ -136,6 +160,30 @@
     {
       "name": "Hide Assistant tab",
       "description": "Hides the Assistant tab from the bottom navigation bar.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "com.truecaller": [
+          "26.10.6"
+        ]
+      },
+      "options": []
+    },
+    {
+      "name": "Hide Premium from settings",
+      "description": "Hides the Premium options from the settings and user details pages.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "com.truecaller": [
+          "26.10.6"
+        ]
+      },
+      "options": []
+    },
+    {
+      "name": "Hide Premium tab",
+      "description": "Hides the Premium tab from the bottom navigation bar.",
       "use": true,
       "dependencies": [],
       "compatiblePackages": {

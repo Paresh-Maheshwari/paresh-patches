@@ -1,3 +1,10 @@
+# [1.13.0](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.12.0...v1.13.0) (2026-04-28)
+
+
+### Features
+
+* add hide premium tab, hide premium settings, disable telemetry, disable update check for Truecaller ([c457448](https://github.com/Paresh-Maheshwari/paresh-patches/commit/c45744865847c986f6aac41a3face7c3c1c02f61))
+
 # [1.12.0](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.11.0...v1.12.0) (2026-04-26)
 
 
