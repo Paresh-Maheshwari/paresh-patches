@@ -1,3 +1,10 @@
+# [1.14.0](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.13.0...v1.14.0) (2026-04-28)
+
+
+### Features
+
+* add Proton VPN premium patch with free servers, disable telemetry ([7c732a6](https://github.com/Paresh-Maheshwari/paresh-patches/commit/7c732a6b7791eade5d22fdd64f0d9addac57f56b))
+
 # [1.13.0](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.12.0...v1.13.0) (2026-04-28)
 
 
