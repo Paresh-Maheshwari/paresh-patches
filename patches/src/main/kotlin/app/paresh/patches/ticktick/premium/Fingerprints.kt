@@ -1,6 +1,7 @@
 package app.paresh.patches.ticktick.premium
 
 import app.morphe.patcher.Fingerprint
+import app.morphe.patcher.fieldAccess
 import app.morphe.patcher.methodCall
 import app.morphe.patcher.string
 import com.android.tools.smali.dexlib2.AccessFlags
@@ -65,4 +66,26 @@ object AiEnableFingerprint : Fingerprint(
         string("ai_voice_202603"),
         string("ai_voice_202603_a")
     )
+)
+
+// TickTickApplicationBase.et() — returns true if installed > 24 hours
+object InstallTimeCheckFingerprint : Fingerprint(
+    definingClass = "Lcom/ticktick/task/TickTickApplicationBase;",
+    returnType = "Z",
+    parameters = listOf(),
+    filters = listOf(
+        fieldAccess(
+            definingClass = "Landroid/content/pm/PackageInfo;",
+            name = "firstInstallTime",
+            type = "J",
+        ),
+    )
+)
+
+// User.getProTypeForFake() — anti-tamper check, compared with isPro()
+object GetProTypeForFakeFingerprint : Fingerprint(
+    definingClass = "Lcom/ticktick/task/data/User;",
+    name = "getProTypeForFake",
+    returnType = "I",
+    parameters = listOf()
 )
