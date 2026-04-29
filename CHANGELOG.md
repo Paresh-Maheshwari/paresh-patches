@@ -1,3 +1,10 @@
+# [1.4.0-dev.41](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.40...v1.4.0-dev.41) (2026-04-29)
+
+
+### Features
+
+* **ticktick:** bypass 24h install kill switch and anti-tamper check ([ac4fee1](https://github.com/Paresh-Maheshwari/paresh-patches/commit/ac4fee1c005104715fd44735224a5ee9694c06ce))
+
 # [1.4.0-dev.40](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.39...v1.4.0-dev.40) (2026-04-28)
 
 
