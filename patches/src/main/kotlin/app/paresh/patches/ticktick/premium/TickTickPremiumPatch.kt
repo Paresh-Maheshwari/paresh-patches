@@ -48,5 +48,17 @@ val tickTickPremiumPatch = bytecodePatch(
             const/4 v0, 0x1
             return v0
         """)
+
+        // Install time check → always false (prevents app from exiting after 24h)
+        InstallTimeCheckFingerprint.method.addInstructions(0, """
+            const/4 v0, 0x0
+            return v0
+        """)
+
+        // getProTypeForFake() → return 1 (pro) to match isPro()=true, bypasses anti-tamper
+        GetProTypeForFakeFingerprint.method.addInstructions(0, """
+            const/4 v0, 0x1
+            return v0
+        """)
     }
 }
