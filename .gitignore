@@ -3,3 +3,10 @@ build/
 .idea/
 *.iml
 local.properties
+
+# Eclipse/IDE files
+.project
+.settings/
+.classpath
+bin/
+a.out
