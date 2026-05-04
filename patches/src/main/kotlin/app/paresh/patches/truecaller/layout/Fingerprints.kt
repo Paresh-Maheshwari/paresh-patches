@@ -42,6 +42,15 @@ object SettingsPremiumVisibilityFingerprint : Fingerprint(
     )
 )
 
+// Targets gg1.c — family protect feature flag check
+object FamilyProtectFeatureFingerprint : Fingerprint(
+    returnType = "Z",
+    parameters = listOf(),
+    filters = listOf(
+        string("featureFamilyProtect")
+    )
+)
+
 // Targets zo2/baz.a() — Compose function that renders "Premium member" block on UsersHome settings
 object PremiumBlockComposeFingerprint : Fingerprint(
     returnType = "V",
