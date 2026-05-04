@@ -1,3 +1,15 @@
+# [1.4.0-dev.42](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.41...v1.4.0-dev.42) (2026-05-04)
+
+
+### Bug Fixes
+
+* update gradle wrapper checksum ([ad15a57](https://github.com/Paresh-Maheshwari/paresh-patches/commit/ad15a57e3f5a30906b68a5cd9e070e6ec64a3580))
+
+
+### Features
+
+* **jiohotstar:** add live ad removal, HDR10, and codec unlock patches ([efa97c7](https://github.com/Paresh-Maheshwari/paresh-patches/commit/efa97c75837ae52ba3df5a89a1116e1e2bb529fe))
+
 # [1.4.0-dev.41](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.40...v1.4.0-dev.41) (2026-04-29)
 
 

@@ -1,5 +1,5 @@
 {
-  "version": "1.4.0-dev.41",
+  "version": "1.4.0-dev.42",
   "patches": [
     {
       "name": "Anti-delete messages",
@@ -158,6 +158,18 @@
       "options": []
     },
     {
+      "name": "Enable all codecs",
+      "description": "Enables all video codecs (H265, VP9, AV1) and 4K resolution by bypassing blacklist and capability checks.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "in.startv.hotstar": [
+          "26.04.13.3"
+        ]
+      },
+      "options": []
+    },
+    {
       "name": "Enable screen mirroring",
       "description": "Allows playback while screen mirroring or HDMI is connected.",
       "use": true,
@@ -201,6 +213,18 @@
       "compatiblePackages": {
         "com.overlook.android.fing": [
           "12.11.9"
+        ]
+      },
+      "options": []
+    },
+    {
+      "name": "Force HDR10",
+      "description": "Forces HDR10 and HDR10+ playback on compatible devices by bypassing blacklist and capability checks.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "in.startv.hotstar": [
+          "26.04.13.3"
         ]
       },
       "options": []
@@ -315,7 +339,7 @@
     },
     {
       "name": "Remove ads",
-      "description": "Removes pre-roll and mid-roll video ads.",
+      "description": "Removes pre-roll, mid-roll, and live match video ads.",
       "use": true,
       "dependencies": [],
       "compatiblePackages": {

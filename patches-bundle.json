@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-04-29T18:14:09",
-  "description": "# [1.4.0-dev.41](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.40...v1.4.0-dev.41) (2026-04-29)\n\n\n### Features\n\n* **ticktick:** bypass 24h install kill switch and anti-tamper check ([ac4fee1](https://github.com/Paresh-Maheshwari/paresh-patches/commit/ac4fee1c005104715fd44735224a5ee9694c06ce))",
-  "download_url": "https://github.com/Paresh-Maheshwari/paresh-patches/releases/download/v1.4.0-dev.41/patches-1.4.0-dev.41.mpp",
+  "created_at": "2026-05-04T17:49:28",
+  "description": "# [1.4.0-dev.42](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.41...v1.4.0-dev.42) (2026-05-04)\n\n\n### Bug Fixes\n\n* update gradle wrapper checksum ([ad15a57](https://github.com/Paresh-Maheshwari/paresh-patches/commit/ad15a57e3f5a30906b68a5cd9e070e6ec64a3580))\n\n\n### Features\n\n* **jiohotstar:** add live ad removal, HDR10, and codec unlock patches ([efa97c7](https://github.com/Paresh-Maheshwari/paresh-patches/commit/efa97c75837ae52ba3df5a89a1116e1e2bb529fe))",
+  "download_url": "https://github.com/Paresh-Maheshwari/paresh-patches/releases/download/v1.4.0-dev.42/patches-1.4.0-dev.42.mpp",
   "signature_download_url": "",
-  "version": "1.4.0-dev.41"
+  "version": "1.4.0-dev.42"
 }
