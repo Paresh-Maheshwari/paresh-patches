@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-05-04T17:49:28",
-  "description": "# [1.4.0-dev.42](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.41...v1.4.0-dev.42) (2026-05-04)\n\n\n### Bug Fixes\n\n* update gradle wrapper checksum ([ad15a57](https://github.com/Paresh-Maheshwari/paresh-patches/commit/ad15a57e3f5a30906b68a5cd9e070e6ec64a3580))\n\n\n### Features\n\n* **jiohotstar:** add live ad removal, HDR10, and codec unlock patches ([efa97c7](https://github.com/Paresh-Maheshwari/paresh-patches/commit/efa97c75837ae52ba3df5a89a1116e1e2bb529fe))",
-  "download_url": "https://github.com/Paresh-Maheshwari/paresh-patches/releases/download/v1.4.0-dev.42/patches-1.4.0-dev.42.mpp",
+  "created_at": "2026-05-04T18:23:13",
+  "description": "# [1.4.0-dev.43](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.42...v1.4.0-dev.43) (2026-05-04)\n\n\n### Features\n\n* **truecaller:** add hide Family Protection button patch ([8b28a53](https://github.com/Paresh-Maheshwari/paresh-patches/commit/8b28a5334540895f2c4e3e6d037a63340007a9ff))",
+  "download_url": "https://github.com/Paresh-Maheshwari/paresh-patches/releases/download/v1.4.0-dev.43/patches-1.4.0-dev.43.mpp",
   "signature_download_url": "",
-  "version": "1.4.0-dev.42"
+  "version": "1.4.0-dev.43"
 }

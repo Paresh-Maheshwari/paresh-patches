@@ -1,3 +1,10 @@
+# [1.4.0-dev.43](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.42...v1.4.0-dev.43) (2026-05-04)
+
+
+### Features
+
+* **truecaller:** add hide Family Protection button patch ([8b28a53](https://github.com/Paresh-Maheshwari/paresh-patches/commit/8b28a5334540895f2c4e3e6d037a63340007a9ff))
+
 # [1.4.0-dev.42](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.4.0-dev.41...v1.4.0-dev.42) (2026-05-04)
 
 

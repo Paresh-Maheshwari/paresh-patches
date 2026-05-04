@@ -1,5 +1,5 @@
 {
-  "version": "1.4.0-dev.42",
+  "version": "1.4.0-dev.43",
   "patches": [
     {
       "name": "Anti-delete messages",
@@ -232,6 +232,18 @@
     {
       "name": "Hide Assistant tab",
       "description": "Hides the Assistant tab from the bottom navigation bar.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "com.truecaller": [
+          "26.10.6"
+        ]
+      },
+      "options": []
+    },
+    {
+      "name": "Hide Family Protection button",
+      "description": "Hides the Family Protection button from the bottom navigation bar.",
       "use": true,
       "dependencies": [],
       "compatiblePackages": {
