@@ -1,3 +1,17 @@
+# [1.16.0](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.15.0...v1.16.0) (2026-05-05)
+
+
+### Bug Fixes
+
+* update gradle wrapper checksum ([bbad4c0](https://github.com/Paresh-Maheshwari/paresh-patches/commit/bbad4c06d6dc504b1a18a06994348ec88391977a))
+
+
+### Features
+
+* add JioHotstar patches ([4adf2fb](https://github.com/Paresh-Maheshwari/paresh-patches/commit/4adf2fb04a80749d0c5fbbb6d3bc5b98b205772a))
+* **jiohotstar:** add live ad removal, HDR10, and codec unlock patches ([0152fa4](https://github.com/Paresh-Maheshwari/paresh-patches/commit/0152fa49ca2fdb0b0247cd5e55727729d8dc6370))
+* **truecaller:** add hide Family Protection button patch ([27601d1](https://github.com/Paresh-Maheshwari/paresh-patches/commit/27601d1615e4da74978a6005245e262d46b97f34))
+
 # [1.15.0](https://github.com/Paresh-Maheshwari/paresh-patches/compare/v1.14.0...v1.15.0) (2026-04-29)
 
 

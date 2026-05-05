@@ -1,5 +1,5 @@
 {
-  "version": "1.15.0",
+  "version": "1.16.0",
   "patches": [
     {
       "name": "Anti-delete messages",
@@ -57,6 +57,18 @@
       "compatiblePackages": {
         "org.telegram.messenger.web": [
           "12.6.4"
+        ]
+      },
+      "options": []
+    },
+    {
+      "name": "Bypass signature check",
+      "description": "Bypasses app signature verification to allow API access.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "in.startv.hotstar": [
+          "26.04.13.3"
         ]
       },
       "options": []
@@ -146,6 +158,42 @@
       "options": []
     },
     {
+      "name": "Enable all codecs",
+      "description": "Enables all video codecs (H265, VP9, AV1) and 4K resolution by bypassing blacklist and capability checks.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "in.startv.hotstar": [
+          "26.04.13.3"
+        ]
+      },
+      "options": []
+    },
+    {
+      "name": "Enable screen mirroring",
+      "description": "Allows playback while screen mirroring or HDMI is connected.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "in.startv.hotstar": [
+          "26.04.13.3"
+        ]
+      },
+      "options": []
+    },
+    {
+      "name": "Enable screenshots",
+      "description": "Removes screenshot and screen recording restrictions.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "in.startv.hotstar": [
+          "26.04.13.3"
+        ]
+      },
+      "options": []
+    },
+    {
       "name": "Eyecon Premium",
       "description": "Unlocks premium features.",
       "use": true,
@@ -170,8 +218,32 @@
       "options": []
     },
     {
+      "name": "Force HDR10",
+      "description": "Forces HDR10 and HDR10+ playback on compatible devices by bypassing blacklist and capability checks.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "in.startv.hotstar": [
+          "26.04.13.3"
+        ]
+      },
+      "options": []
+    },
+    {
       "name": "Hide Assistant tab",
       "description": "Hides the Assistant tab from the bottom navigation bar.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "com.truecaller": [
+          "26.10.6"
+        ]
+      },
+      "options": []
+    },
+    {
+      "name": "Hide Family Protection button",
+      "description": "Hides the Family Protection button from the bottom navigation bar.",
       "use": true,
       "dependencies": [],
       "compatiblePackages": {
@@ -242,6 +314,18 @@
       "options": []
     },
     {
+      "name": "Premium unlock",
+      "description": "Unlocks premium UI features, removes subscription nudges, and enables downloads.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "in.startv.hotstar": [
+          "26.04.13.3"
+        ]
+      },
+      "options": []
+    },
+    {
       "name": "Proton VPN Premium",
       "description": "Unlocks premium UI, removes upsells, and shows only free servers.",
       "use": true,
@@ -249,6 +333,18 @@
       "compatiblePackages": {
         "ch.protonvpn.android": [
           "5.17.72.0"
+        ]
+      },
+      "options": []
+    },
+    {
+      "name": "Remove ads",
+      "description": "Removes pre-roll, mid-roll, and live match video ads.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "in.startv.hotstar": [
+          "26.04.13.3"
         ]
       },
       "options": []
